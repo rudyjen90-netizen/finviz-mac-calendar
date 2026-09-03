@@ -1,0 +1,57 @@
+name: Update economic calendar
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-economic-calendar
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download Finviz events and build ICS
+        run: python finviz_calendar.py
+
+      - name: Commit only when the calendar changed
+        run: |
+          if git diff --quiet -- docs/finviz-economic.ics; then
+            echo "No calendar change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/finviz-economic.ics
+          git commit -m "Update economic calendar"
+          git push
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload calendar site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+      - name: Publish calendar site
+        id: deployment
+        uses: actions/deploy-pages@v4
