@@ -839,7 +839,7 @@ DTSTART:20260902T121500Z
 DTEND:20260902T124500Z
 SUMMARY:🟠 中影响｜ADP Employment Change
 DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 38K\n预
- 测值: 47K\n前值: 44K\n期间: Aug\n类别: ADP Employment Change\
+ 测值: 47K\n前值: 46K\n期间: Aug\n类别: ADP Employment Change\
  n时间会由 Apple 日历自动转换为设备所在时区。\n来
  源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
@@ -915,10 +915,10 @@ DTSTART:20260903T123000Z
 DTEND:20260903T130000Z
 SUMMARY:🟠 中影响｜首次申请失业救济人数｜Initial Jobl
  ess Claims
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 205K\n
- 前值: 203K\n期间: 08/29\n类别: Initial Jobless Claims\n时间
- 会由 Apple 日历自动转换为设备所在时区。\n来源: http
- s://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 206.0K\n
+ 预测值: 205K\n前值: 204.0K\n期间: 08/29\n类别: Initial Joble
+ ss Claims\n时间会由 Apple 日历自动转换为设备所在时区
+ 。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -935,10 +935,10 @@ DTSTAMP:20260903T123000Z
 DTSTART:20260903T123000Z
 DTEND:20260903T130000Z
 SUMMARY:🟠 中影响｜Imports
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: $388.0B\n
- 期间: Jul\n类别: Imports\n时间会由 Apple 日历自动转换
- 为设备所在时区。\n来源: https://finviz.com/calendar/economi
- c
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: $399.3B\
+ n前值: $388.0B\n期间: Jul\n类别: Imports\n时间会由 Apple 
+ 日历自动转换为设备所在时区。\n来源: https://finviz.co
+ m/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -954,10 +954,10 @@ DTSTAMP:20260903T123000Z
 DTSTART:20260903T123000Z
 DTEND:20260903T130000Z
 SUMMARY:🟠 中影响｜Exports
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: $314.7B\n
- 期间: Jul\n类别: Exports\n时间会由 Apple 日历自动转换
- 为设备所在时区。\n来源: https://finviz.com/calendar/economi
- c
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: $310.7B\
+ n前值: $314.7B\n期间: Jul\n类别: Exports\n时间会由 Apple 
+ 日历自动转换为设备所在时区。\n来源: https://finviz.co
+ m/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -973,10 +973,10 @@ DTSTAMP:20260903T123000Z
 DTSTART:20260903T123000Z
 DTEND:20260903T130000Z
 SUMMARY:🟠 中影响｜Balance of Trade
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: -$90B\n
- 前值: -$73.3B\n期间: Jul\n类别: Balance of Trade\n时间会由 
- Apple 日历自动转换为设备所在时区。\n来源: https://fin
- viz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -88.60B\
+ n预测值: $-90B\n前值: -73.30B\n期间: Jul\n类别: Balance of T
+ rade\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1304,10 +1304,10 @@ DTSTAMP:20260910T160000Z
 DTSTART:20260910T160000Z
 DTEND:20260910T163000Z
 SUMMARY:🟠 中影响｜EIA Crude Oil Stocks Change
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: 09/05\n类
- 别: Crude Oil Stocks Change\n时间会由 Apple 日历自动转换
- 为设备所在时区。\n来源: https://finviz.com/calendar/economi
- c
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -4.45M\n期
+ 间: 09/05\n类别: Crude Oil Stocks Change\n时间会由 Apple 日
+ 历自动转换为设备所在时区。\n来源: https://finviz.com/c
+ alendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1323,9 +1323,10 @@ DTSTAMP:20260910T160000Z
 DTSTART:20260910T160000Z
 DTEND:20260910T163000Z
 SUMMARY:🟠 中影响｜EIA Gasoline Stocks Change
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: 09/05\n类
- 别: Gasoline Stocks Change\n时间会由 Apple 日历自动转换为
- 设备所在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -1.173M\n
+ 期间: 09/05\n类别: Gasoline Stocks Change\n时间会由 Apple 日
+ 历自动转换为设备所在时区。\n来源: https://finviz.com/c
+ alendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1474,9 +1475,10 @@ DTSTAMP:20260911T180000Z
 DTSTART:20260911T180000Z
 DTEND:20260911T183000Z
 SUMMARY:🟠 中影响｜Monthly Budget Statement
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: Aug\n类别
- : Government Budget Value\n时间会由 Apple 日历自动转换为
- 设备所在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -$432B\n期
+ 间: Aug\n类别: Government Budget Value\n时间会由 Apple 日历
+ 自动转换为设备所在时区。\n来源: https://finviz.com/cale
+ ndar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2363,9 +2365,10 @@ DTSTAMP:20260930T121500Z
 DTSTART:20260930T121500Z
 DTEND:20260930T124500Z
 SUMMARY:🟠 中影响｜ADP Employment Change
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: Sep\n类别
- : ADP Employment Change\n时间会由 Apple 日历自动转换为设
- 备所在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 38K\n期间
+ : Sep\n类别: ADP Employment Change\n时间会由 Apple 日历自动
+ 转换为设备所在时区。\n来源: https://finviz.com/calendar/e
+ conomic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2824,9 +2827,10 @@ DTSTAMP:20261002T140000Z
 DTSTART:20261002T140000Z
 DTEND:20261002T143000Z
 SUMMARY:🟠 中影响｜Factory Orders MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: Aug\n类别
- : Factory Orders\n时间会由 Apple 日历自动转换为设备所
- 在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 0.9%\n期
+ 间: Aug\n类别: Factory Orders\n时间会由 Apple 日历自动转
+ 换为设备所在时区。\n来源: https://finviz.com/calendar/econ
+ omic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
