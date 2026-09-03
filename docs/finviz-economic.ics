@@ -1011,10 +1011,10 @@ DTSTAMP:20260903T140000Z
 DTSTART:20260903T140000Z
 DTEND:20260903T143000Z
 SUMMARY:🔴 高影响｜ISM服务业PMI｜ISM Services PMI
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 54.3\n
- 前值: 54.1\n期间: Aug\n类别: Non Manufacturing PMI\n时间会
- 由 Apple 日历自动转换为设备所在时区。\n来源: https:/
- /finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n公布值: 55.4\n
+ 预测值: 54.3\n前值: 54.1\n期间: Aug\n类别: Non Manufacturing
+  PMI\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
