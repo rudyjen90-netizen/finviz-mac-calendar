@@ -915,9 +915,9 @@ DTSTART:20260903T123000Z
 DTEND:20260903T130000Z
 SUMMARY:🟠 中影响｜首次申请失业救济人数｜Initial Jobl
  ess Claims
-DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 206.0K\n
- 预测值: 205K\n前值: 204.0K\n期间: 08/29\n类别: Initial Joble
- ss Claims\n时间会由 Apple 日历自动转换为设备所在时区
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 206K\n
+ 预测值: 205K\n前值: 204K\n期间: 08/29\n类别: Initial Jobless
+  Claims\n时间会由 Apple 日历自动转换为设备所在时区
  。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
@@ -936,7 +936,7 @@ DTSTART:20260903T123000Z
 DTEND:20260903T130000Z
 SUMMARY:🟠 中影响｜Imports
 DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: $399.3B\
- n前值: $388.0B\n期间: Jul\n类别: Imports\n时间会由 Apple 
+ n前值: $388.5B\n期间: Jul\n类别: Imports\n时间会由 Apple 
  日历自动转换为设备所在时区。\n来源: https://finviz.co
  m/calendar/economic
 URL:https://finviz.com/calendar/economic
@@ -973,8 +973,8 @@ DTSTAMP:20260903T123000Z
 DTSTART:20260903T123000Z
 DTEND:20260903T130000Z
 SUMMARY:🟠 中影响｜Balance of Trade
-DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -88.60B\
- n预测值: $-90B\n前值: -73.30B\n期间: Jul\n类别: Balance of T
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -$88.6B\
+ n预测值: -$90B\n前值: -$71.2B\n期间: Jul\n类别: Balance of T
  rade\n时间会由 Apple 日历自动转换为设备所在时区。\n
  来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
@@ -1050,10 +1050,10 @@ DTSTART:20260904T123000Z
 DTEND:20260904T130000Z
 SUMMARY:🟠 中影响｜平均时薪（月率）｜Average Hourly Ear
  nings MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.3%\n
- 前值: 0.1%\n期间: Aug\n类别: Average Hourly Earnings\n时间会
- 由 Apple 日历自动转换为设备所在时区。\n来源: https:/
- /finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 0.3%\n
+ 预测值: 0.3%\n前值: 0.2%\n期间: Aug\n类别: Average Hourly Ea
+ rnings\n时间会由 Apple 日历自动转换为设备所在时区。
+ \n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1070,10 +1070,10 @@ DTSTAMP:20260904T123000Z
 DTSTART:20260904T123000Z
 DTEND:20260904T130000Z
 SUMMARY:🔴 高影响｜非农就业人数｜Non Farm Payrolls
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 58K\n前
- 值: -23K\n期间: Aug\n类别: Non Farm Payrolls\n时间会由 Apple
-  日历自动转换为设备所在时区。\n来源: https://finviz.c
- om/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n公布值: 162K\n
+ 预测值: 56K\n前值: 21K\n期间: Aug\n类别: Non Farm Payrolls\n
+ 时间会由 Apple 日历自动转换为设备所在时区。\n来源
+ : https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1090,10 +1090,10 @@ DTSTART:20260904T123000Z
 DTEND:20260904T130000Z
 SUMMARY:🟠 中影响｜平均时薪（年率）｜Average Hourly Ear
  nings YoY
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 3%\n前
- 值: 3.2%\n期间: Aug\n类别: Average Hourly Earnings YoY\n时间
- 会由 Apple 日历自动转换为设备所在时区。\n来源: http
- s://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 3.1%\n
+ 预测值: 3%\n前值: 3.2%\n期间: Aug\n类别: Average Hourly Earn
+ ings YoY\n时间会由 Apple 日历自动转换为设备所在时区
+ 。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1110,10 +1110,10 @@ DTSTAMP:20260904T123000Z
 DTSTART:20260904T123000Z
 DTEND:20260904T130000Z
 SUMMARY:🔴 高影响｜失业率｜Unemployment Rate
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 4.1%\n
- 前值: 4.1%\n期间: Aug\n类别: Unemployment Rate\n时间会由 Ap
- ple 日历自动转换为设备所在时区。\n来源: https://finvi
- z.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n公布值: 4.1%\n
+ 预测值: 4.1%\n前值: 4.1%\n期间: Aug\n类别: Unemployment Rate
+ \n时间会由 Apple 日历自动转换为设备所在时区。\n来
+ 源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1129,10 +1129,10 @@ DTSTAMP:20260904T123000Z
 DTSTART:20260904T123000Z
 DTEND:20260904T130000Z
 SUMMARY:🟠 中影响｜Participation Rate
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 61.4%\n期
- 间: Aug\n类别: Labor Force Participation Rate\n时间会由 Apple 
- 日历自动转换为设备所在时区。\n来源: https://finviz.co
- m/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 61.6%\n
+ 前值: 61.4%\n期间: Aug\n类别: Labor Force Participation Rate\n
+ 时间会由 Apple 日历自动转换为设备所在时区。\n来源
+ : https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1206,9 +1206,10 @@ DTSTART:20260910T123000Z
 DTEND:20260910T130000Z
 SUMMARY:🟠 中影响｜首次申请失业救济人数｜Initial Jobl
  ess Claims
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: 09/05\n类
- 别: Initial Jobless Claims\n时间会由 Apple 日历自动转换为
- 设备所在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 206K\n期
+ 间: 09/05\n类别: Initial Jobless Claims\n时间会由 Apple 日历
+ 自动转换为设备所在时区。\n来源: https://finviz.com/cale
+ ndar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1226,10 +1227,10 @@ DTSTART:20260910T123000Z
 DTEND:20260910T130000Z
 SUMMARY:🟠 中影响｜核心生产者物价指数（月率）｜Cor
  e PPI MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 0.2%\n期
- 间: Aug\n类别: Core Producer Prices MoM\n时间会由 Apple 日历
- 自动转换为设备所在时区。\n来源: https://finviz.com/cale
- ndar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.3%\n
+ 前值: 0.2%\n期间: Aug\n类别: Core Producer Prices MoM\n时间
+ 会由 Apple 日历自动转换为设备所在时区。\n来源: http
+ s://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1246,10 +1247,10 @@ DTSTAMP:20260910T123000Z
 DTSTART:20260910T123000Z
 DTEND:20260910T130000Z
 SUMMARY:🔴 高影响｜生产者物价指数（月率）｜PPI MoM
-DESCRIPTION:Finviz 美国经济日历｜高影响\n前值: 0%\n期间:
-  Aug\n类别: Producer Price Inflation MoM\n时间会由 Apple 日历
- 自动转换为设备所在时区。\n来源: https://finviz.com/cale
- ndar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 0.3%\n
+ 前值: 0%\n期间: Aug\n类别: Producer Price Inflation MoM\n时间
+ 会由 Apple 日历自动转换为设备所在时区。\n来源: http
+ s://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1266,10 +1267,10 @@ DTSTAMP:20260910T140000Z
 DTSTART:20260910T140000Z
 DTEND:20260910T143000Z
 SUMMARY:🔴 高影响｜Existing Home Sales
-DESCRIPTION:Finviz 美国经济日历｜高影响\n前值: 4.06M\n期
- 间: Aug\n类别: Existing Home Sales\n时间会由 Apple 日历自
- 动转换为设备所在时区。\n来源: https://finviz.com/calenda
- r/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 4.03M\n
+ 前值: 4.06M\n期间: Aug\n类别: Existing Home Sales\n时间会由
+  Apple 日历自动转换为设备所在时区。\n来源: https://fi
+ nviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1342,10 +1343,10 @@ DTSTAMP:20260911T123000Z
 DTSTART:20260911T123000Z
 DTEND:20260911T130000Z
 SUMMARY:🔴 高影响｜Core Inflation Rate MoM
-DESCRIPTION:Finviz 美国经济日历｜高影响\n前值: 0.2%\n期
- 间: Aug\n类别: Core Inflation Rate MoM\n时间会由 Apple 日历
- 自动转换为设备所在时区。\n来源: https://finviz.com/cale
- ndar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 0.2%\n
+ 前值: 0.2%\n期间: Aug\n类别: Core Inflation Rate MoM\n时间会
+ 由 Apple 日历自动转换为设备所在时区。\n来源: https:/
+ /finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1380,10 +1381,10 @@ DTSTAMP:20260911T123000Z
 DTSTART:20260911T123000Z
 DTEND:20260911T130000Z
 SUMMARY:🔴 高影响｜Inflation Rate MoM
-DESCRIPTION:Finviz 美国经济日历｜高影响\n前值: 0.1%\n期
- 间: Aug\n类别: Inflation Rate Mom\n时间会由 Apple 日历自动
- 转换为设备所在时区。\n来源: https://finviz.com/calendar/e
- conomic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 0.4%\n
+ 前值: 0.1%\n期间: Aug\n类别: Inflation Rate Mom\n时间会由 A
+ pple 日历自动转换为设备所在时区。\n来源: https://finv
+ iz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
