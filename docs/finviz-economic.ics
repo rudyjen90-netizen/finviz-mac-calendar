@@ -1206,10 +1206,10 @@ DTSTART:20260910T123000Z
 DTEND:20260910T130000Z
 SUMMARY:🟠 中影响｜首次申请失业救济人数｜Initial Jobl
  ess Claims
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 206K\n期
- 间: 09/05\n类别: Initial Jobless Claims\n时间会由 Apple 日历
- 自动转换为设备所在时区。\n来源: https://finviz.com/cale
- ndar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 205K\n
+ 前值: 206K\n期间: 09/05\n类别: Initial Jobless Claims\n时间
+ 会由 Apple 日历自动转换为设备所在时区。\n来源: http
+ s://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2732,9 +2732,10 @@ DTSTAMP:20261002T123000Z
 DTSTART:20261002T123000Z
 DTEND:20261002T130000Z
 SUMMARY:🔴 高影响｜非农就业人数｜Non Farm Payrolls
-DESCRIPTION:Finviz 美国经济日历｜高影响\n期间: Sep\n类别
- : Non Farm Payrolls\n时间会由 Apple 日历自动转换为设备
- 所在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n前值: 162K\n期
+ 间: Sep\n类别: Non Farm Payrolls\n时间会由 Apple 日历自动
+ 转换为设备所在时区。\n来源: https://finviz.com/calendar/e
+ conomic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2750,10 +2751,10 @@ DTSTAMP:20261002T123000Z
 DTSTART:20261002T123000Z
 DTEND:20261002T130000Z
 SUMMARY:🟠 中影响｜Participation Rate
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: Sep\n类别
- : Labor Force Participation Rate\n时间会由 Apple 日历自动转
- 换为设备所在时区。\n来源: https://finviz.com/calendar/econ
- omic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 61.6%\n期
+ 间: Sep\n类别: Labor Force Participation Rate\n时间会由 Apple 
+ 日历自动转换为设备所在时区。\n来源: https://finviz.co
+ m/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2769,9 +2770,10 @@ DTSTAMP:20261002T123000Z
 DTSTART:20261002T123000Z
 DTEND:20261002T130000Z
 SUMMARY:🔴 高影响｜失业率｜Unemployment Rate
-DESCRIPTION:Finviz 美国经济日历｜高影响\n期间: Sep\n类别
- : Unemployment Rate\n时间会由 Apple 日历自动转换为设备
- 所在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n前值: 4.1%\n期
+ 间: Sep\n类别: Unemployment Rate\n时间会由 Apple 日历自动
+ 转换为设备所在时区。\n来源: https://finviz.com/calendar/e
+ conomic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2788,10 +2790,10 @@ DTSTART:20261002T123000Z
 DTEND:20261002T130000Z
 SUMMARY:🟠 中影响｜平均时薪（年率）｜Average Hourly Ear
  nings YoY
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: Sep\n类别
- : Average Hourly Earnings YoY\n时间会由 Apple 日历自动转换
- 为设备所在时区。\n来源: https://finviz.com/calendar/economi
- c
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 3.1%\n期
+ 间: Sep\n类别: Average Hourly Earnings YoY\n时间会由 Apple 日
+ 历自动转换为设备所在时区。\n来源: https://finviz.com/c
+ alendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2809,9 +2811,10 @@ DTSTART:20261002T123000Z
 DTEND:20261002T130000Z
 SUMMARY:🟠 中影响｜平均时薪（月率）｜Average Hourly Ear
  nings MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: Sep\n类别
- : Average Hourly Earnings\n时间会由 Apple 日历自动转换为
- 设备所在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 0.3%\n期
+ 间: Sep\n类别: Average Hourly Earnings\n时间会由 Apple 日历
+ 自动转换为设备所在时区。\n来源: https://finviz.com/cale
+ ndar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
