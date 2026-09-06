@@ -1362,10 +1362,10 @@ DTSTAMP:20260911T123000Z
 DTSTART:20260911T123000Z
 DTEND:20260911T130000Z
 SUMMARY:🔴 高影响｜Inflation Rate YoY
-DESCRIPTION:Finviz 美国经济日历｜高影响\n前值: 3.4%\n期
- 间: Aug\n类别: Inflation Rate\n时间会由 Apple 日历自动转
- 换为设备所在时区。\n来源: https://finviz.com/calendar/econ
- omic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 3.4%\n
+ 前值: 3.4%\n期间: Aug\n类别: Inflation Rate\n时间会由 Apple
+  日历自动转换为设备所在时区。\n来源: https://finviz.c
+ om/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1400,10 +1400,10 @@ DTSTAMP:20260911T123000Z
 DTSTART:20260911T123000Z
 DTEND:20260911T130000Z
 SUMMARY:🔴 高影响｜Core Inflation Rate YoY
-DESCRIPTION:Finviz 美国经济日历｜高影响\n前值: 2.5%\n期
- 间: Aug\n类别: Core Inflation Rate\n时间会由 Apple 日历自
- 动转换为设备所在时区。\n来源: https://finviz.com/calenda
- r/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 2.4%\n
+ 前值: 2.5%\n期间: Aug\n类别: Core Inflation Rate\n时间会由 
+ Apple 日历自动转换为设备所在时区。\n来源: https://fin
+ viz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1476,10 +1476,10 @@ DTSTAMP:20260911T180000Z
 DTSTART:20260911T180000Z
 DTEND:20260911T183000Z
 SUMMARY:🟠 中影响｜Monthly Budget Statement
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -$432B\n期
- 间: Aug\n类别: Government Budget Value\n时间会由 Apple 日历
- 自动转换为设备所在时区。\n来源: https://finviz.com/cale
- ndar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: -$202.4B
+ \n前值: -$432B\n期间: Aug\n类别: Government Budget Value\n时
+ 间会由 Apple 日历自动转换为设备所在时区。\n来源: h
+ ttps://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
