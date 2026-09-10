@@ -494,9 +494,9 @@ DTSTART:20260909T121500Z
 DTEND:20260909T124500Z
 SUMMARY:🟠 中影响｜ADP Employment Change Weekly
 DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 12K\n前
- 值: 11.75K\n类别: ADP Employment Change Weekly\n时间会由 Apple
-  日历自动转换为设备所在时区。\n来源: https://finviz.c
- om/calendar/economic
+ 值: 10K\n类别: ADP Employment Change Weekly\n时间会由 Apple 
+ 日历自动转换为设备所在时区。\n来源: https://finviz.co
+ m/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -508,14 +508,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:finviz-396756@economic-calendar
-DTSTAMP:20260909T203000Z
-DTSTART:20260909T203000Z
-DTEND:20260909T210000Z
+DTSTAMP:20260909T210000Z
+DTSTART:20260909T210000Z
+DTEND:20260909T213000Z
 SUMMARY:🟠 中影响｜API Crude Oil Stock Change
-DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -0.300M\
- n预测值: -1.3M\n前值: -2.600M\n期间: 09/05\n类别: API Crude 
- Oil Stock Change\n时间会由 Apple 日历自动转换为设备所
- 在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -0.3M\n
+ 预测值: -1.3M\n前值: -2.6M\n期间: 09/05\n类别: API Crude Oil
+  Stock Change\n时间会由 Apple 日历自动转换为设备所在
+ 时区。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -532,10 +532,10 @@ DTSTART:20260910T123000Z
 DTEND:20260910T130000Z
 SUMMARY:🟠 中影响｜首次申请失业救济人数｜Initial Jobl
  ess Claims
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 205K\n
- 前值: 206K\n期间: 09/05\n类别: Initial Jobless Claims\n时间
- 会由 Apple 日历自动转换为设备所在时区。\n来源: http
- s://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 206K\n
+ 预测值: 205K\n前值: 207K\n期间: 09/05\n类别: Initial Jobless
+  Claims\n时间会由 Apple 日历自动转换为设备所在时区
+ 。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -553,10 +553,10 @@ DTSTART:20260910T123000Z
 DTEND:20260910T130000Z
 SUMMARY:🟠 中影响｜核心生产者物价指数（月率）｜Cor
  e PPI MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.3%\n
- 前值: 0.2%\n期间: Aug\n类别: Core Producer Prices MoM\n时间
- 会由 Apple 日历自动转换为设备所在时区。\n来源: http
- s://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 0.2%\n
+ 预测值: 0.3%\n前值: 0.3%\n期间: Aug\n类别: Core Producer Pri
+ ces MoM\n时间会由 Apple 日历自动转换为设备所在时区
+ 。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -573,10 +573,10 @@ DTSTAMP:20260910T123000Z
 DTSTART:20260910T123000Z
 DTEND:20260910T130000Z
 SUMMARY:🔴 高影响｜生产者物价指数（月率）｜PPI MoM
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 0.4%\n
- 前值: 0%\n期间: Aug\n类别: Producer Price Inflation MoM\n时间
- 会由 Apple 日历自动转换为设备所在时区。\n来源: http
- s://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n公布值: 0.4%\n
+ 预测值: 0.4%\n前值: 0.1%\n期间: Aug\n类别: Producer Price In
+ flation MoM\n时间会由 Apple 日历自动转换为设备所在时
+ 区。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -631,10 +631,10 @@ DTSTAMP:20260910T160000Z
 DTSTART:20260910T160000Z
 DTEND:20260910T163000Z
 SUMMARY:🟠 中影响｜EIA Crude Oil Stocks Change
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -4.45M\n期
- 间: 09/05\n类别: Crude Oil Stocks Change\n时间会由 Apple 日
- 历自动转换为设备所在时区。\n来源: https://finviz.com/c
- alendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: -1.4M\n
+ 前值: -4.45M\n期间: 09/05\n类别: Crude Oil Stocks Change\n时
+ 间会由 Apple 日历自动转换为设备所在时区。\n来源: h
+ ttps://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -821,9 +821,10 @@ DTSTAMP:20260915T121500Z
 DTSTART:20260915T121500Z
 DTEND:20260915T124500Z
 SUMMARY:🟠 中影响｜ADP Employment Change Weekly
-DESCRIPTION:Finviz 美国经济日历｜中影响\n类别: ADP Employm
- ent Change Weekly\n时间会由 Apple 日历自动转换为设备所
- 在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 12K\n类别
+ : ADP Employment Change Weekly\n时间会由 Apple 日历自动转换
+ 为设备所在时区。\n来源: https://finviz.com/calendar/economi
+ c
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -858,10 +859,10 @@ DTSTAMP:20260915T203000Z
 DTSTART:20260915T203000Z
 DTEND:20260915T210000Z
 SUMMARY:🟠 中影响｜API Crude Oil Stock Change
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: 09/12\n类
- 别: API Crude Oil Stock Change\n时间会由 Apple 日历自动转
- 换为设备所在时区。\n来源: https://finviz.com/calendar/econ
- omic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -0.3M\n期
+ 间: 09/12\n类别: API Crude Oil Stock Change\n时间会由 Apple 
+ 日历自动转换为设备所在时区。\n来源: https://finviz.co
+ m/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
