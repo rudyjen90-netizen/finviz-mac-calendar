@@ -512,10 +512,10 @@ DTSTAMP:20260909T203000Z
 DTSTART:20260909T203000Z
 DTEND:20260909T210000Z
 SUMMARY:🟠 中影响｜API Crude Oil Stock Change
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -2.6M\n期
- 间: 09/05\n类别: API Crude Oil Stock Change\n时间会由 Apple 
- 日历自动转换为设备所在时区。\n来源: https://finviz.co
- m/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -0.300M\
+ n预测值: -1.3M\n前值: -2.600M\n期间: 09/05\n类别: API Crude 
+ Oil Stock Change\n时间会由 Apple 日历自动转换为设备所
+ 在时区。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
