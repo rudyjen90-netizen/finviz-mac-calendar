@@ -783,10 +783,10 @@ DTSTAMP:20260911T140000Z
 DTSTART:20260911T140000Z
 DTEND:20260911T143000Z
 SUMMARY:🔴 高影响｜Michigan Consumer Sentiment Prel
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 51\n前
- 值: 51.7\n期间: Sep\n类别: Consumer Confidence\n时间会由 App
- le 日历自动转换为设备所在时区。\n来源: https://finviz
- .com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n公布值: 47.8\n
+ 预测值: 51\n前值: 51.7\n期间: Sep\n类别: Consumer Confidence
+ \n时间会由 Apple 日历自动转换为设备所在时区。\n来
+ 源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -802,10 +802,10 @@ DTSTAMP:20260911T180000Z
 DTSTART:20260911T180000Z
 DTEND:20260911T183000Z
 SUMMARY:🟠 中影响｜Monthly Budget Statement
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: -$404B\n
- 前值: -$432B\n期间: Aug\n类别: Government Budget Value\n时间
- 会由 Apple 日历自动转换为设备所在时区。\n来源: http
- s://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -167.0B\
+ n预测值: $-404B\n前值: -432.0B\n期间: Aug\n类别: Government 
+ Budget Value\n时间会由 Apple 日历自动转换为设备所在时
+ 区。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
