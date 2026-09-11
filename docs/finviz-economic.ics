@@ -612,10 +612,10 @@ DTSTAMP:20260910T140000Z
 DTSTART:20260910T140000Z
 DTEND:20260910T143000Z
 SUMMARY:🟠 中影响｜Existing Home Sales MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -2.0%\n
- 前值: -1.7%\n期间: Aug\n类别: Existing Home Sales MoM\n时间
- 会由 Apple 日历自动转换为设备所在时区。\n来源: http
- s://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -2%\n前
+ 值: -1.7%\n期间: Aug\n类别: Existing Home Sales MoM\n时间会
+ 由 Apple 日历自动转换为设备所在时区。\n来源: https:/
+ /finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -632,9 +632,9 @@ DTSTART:20260910T160000Z
 DTEND:20260910T163000Z
 SUMMARY:🟠 中影响｜EIA Crude Oil Stocks Change
 DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -0.391M\
- n预测值: -1.6M\n前值: -4.450M\n期间: 09/05\n类别: Crude Oil 
- Stocks Change\n时间会由 Apple 日历自动转换为设备所在
- 时区。\n来源: https://finviz.com/calendar/economic
+ n预测值: -1.6M\n前值: -4.45M\n期间: 09/05\n类别: Crude Oil S
+ tocks Change\n时间会由 Apple 日历自动转换为设备所在时
+ 区。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -669,10 +669,10 @@ DTSTAMP:20260911T123000Z
 DTSTART:20260911T123000Z
 DTEND:20260911T130000Z
 SUMMARY:🔴 高影响｜Core Inflation Rate MoM
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 0.2%\n
- 前值: 0.2%\n期间: Aug\n类别: Core Inflation Rate MoM\n时间会
- 由 Apple 日历自动转换为设备所在时区。\n来源: https:/
- /finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n公布值: 0.3%\n
+ 预测值: 0.2%\n前值: 0.2%\n期间: Aug\n类别: Core Inflation Ra
+ te MoM\n时间会由 Apple 日历自动转换为设备所在时区。
+ \n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -688,10 +688,10 @@ DTSTAMP:20260911T123000Z
 DTSTART:20260911T123000Z
 DTEND:20260911T130000Z
 SUMMARY:🔴 高影响｜Inflation Rate YoY
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 3.4%\n
- 前值: 3.4%\n期间: Aug\n类别: Inflation Rate\n时间会由 Apple
-  日历自动转换为设备所在时区。\n来源: https://finviz.c
- om/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n公布值: 3.4%\n
+ 预测值: 3.4%\n前值: 3.4%\n期间: Aug\n类别: Inflation Rate\n
+ 时间会由 Apple 日历自动转换为设备所在时区。\n来源
+ : https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -707,10 +707,10 @@ DTSTAMP:20260911T123000Z
 DTSTART:20260911T123000Z
 DTEND:20260911T130000Z
 SUMMARY:🔴 高影响｜Inflation Rate MoM
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 0.4%\n
- 前值: 0.1%\n期间: Aug\n类别: Inflation Rate Mom\n时间会由 A
- pple 日历自动转换为设备所在时区。\n来源: https://finv
- iz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n公布值: 0.4%\n
+ 预测值: 0.4%\n前值: 0.1%\n期间: Aug\n类别: Inflation Rate Mo
+ m\n时间会由 Apple 日历自动转换为设备所在时区。\n来
+ 源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -726,10 +726,10 @@ DTSTAMP:20260911T123000Z
 DTSTART:20260911T123000Z
 DTEND:20260911T130000Z
 SUMMARY:🔴 高影响｜Core Inflation Rate YoY
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 2.4%\n
- 前值: 2.5%\n期间: Aug\n类别: Core Inflation Rate\n时间会由 
- Apple 日历自动转换为设备所在时区。\n来源: https://fin
- viz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n公布值: 2.4%\n
+ 预测值: 2.4%\n前值: 2.5%\n期间: Aug\n类别: Core Inflation Ra
+ te\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -745,10 +745,10 @@ DTSTAMP:20260911T123000Z
 DTSTART:20260911T123000Z
 DTEND:20260911T130000Z
 SUMMARY:🟠 中影响｜CPI
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 334.85\n
- 前值: 333.92\n期间: Aug\n类别: Consumer Price Index CPI\n时间
- 会由 Apple 日历自动转换为设备所在时区。\n来源: http
- s://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 334.98\n
+ 预测值: 334.85\n前值: 333.92\n期间: Aug\n类别: Consumer Pric
+ e Index CPI\n时间会由 Apple 日历自动转换为设备所在时
+ 区。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -764,10 +764,10 @@ DTSTAMP:20260911T123000Z
 DTSTART:20260911T123000Z
 DTEND:20260911T130000Z
 SUMMARY:🟠 中影响｜CPI s.a
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 332.81\n期
- 间: Aug\n类别: CPI seasonally adjusted\n时间会由 Apple 日历
- 自动转换为设备所在时区。\n来源: https://finviz.com/cale
- ndar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 334.131\
+ n前值: 332.81\n期间: Aug\n类别: CPI seasonally adjusted\n时间
+ 会由 Apple 日历自动转换为设备所在时区。\n来源: http
+ s://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -802,10 +802,10 @@ DTSTAMP:20260911T180000Z
 DTSTART:20260911T180000Z
 DTEND:20260911T183000Z
 SUMMARY:🟠 中影响｜Monthly Budget Statement
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: -$202.5B
- \n前值: -$432B\n期间: Aug\n类别: Government Budget Value\n时
- 间会由 Apple 日历自动转换为设备所在时区。\n来源: h
- ttps://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: -$404B\n
+ 前值: -$432B\n期间: Aug\n类别: Government Budget Value\n时间
+ 会由 Apple 日历自动转换为设备所在时区。\n来源: http
+ s://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1031,10 +1031,10 @@ DTSTAMP:20260916T143000Z
 DTSTART:20260916T143000Z
 DTEND:20260916T150000Z
 SUMMARY:🟠 中影响｜EIA Crude Oil Stocks Change
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: 09/12\n类
- 别: Crude Oil Stocks Change\n时间会由 Apple 日历自动转换
- 为设备所在时区。\n来源: https://finviz.com/calendar/economi
- c
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -0.391M\n
+ 期间: 09/12\n类别: Crude Oil Stocks Change\n时间会由 Apple 
+ 日历自动转换为设备所在时区。\n来源: https://finviz.co
+ m/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1050,9 +1050,10 @@ DTSTAMP:20260916T143000Z
 DTSTART:20260916T143000Z
 DTEND:20260916T150000Z
 SUMMARY:🟠 中影响｜EIA Gasoline Stocks Change
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: 09/12\n类
- 别: Gasoline Stocks Change\n时间会由 Apple 日历自动转换为
- 设备所在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 1.269M\n期
+ 间: 09/12\n类别: Gasoline Stocks Change\n时间会由 Apple 日历
+ 自动转换为设备所在时区。\n来源: https://finviz.com/cale
+ ndar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1069,9 +1070,10 @@ DTSTART:20260916T180000Z
 DTEND:20260916T183000Z
 SUMMARY:🔴 高影响｜美联储利率决议｜Fed Interest Rate Dec
  ision
-DESCRIPTION:Finviz 美国经济日历｜高影响\n前值: 3.75%\n类
- 别: Interest Rate\n时间会由 Apple 日历自动转换为设备所
- 在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 4%\n前
+ 值: 3.75%\n类别: Interest Rate\n时间会由 Apple 日历自动转
+ 换为设备所在时区。\n来源: https://finviz.com/calendar/econ
+ omic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1146,9 +1148,10 @@ DTSTART:20260917T123000Z
 DTEND:20260917T130000Z
 SUMMARY:🟠 中影响｜首次申请失业救济人数｜Initial Jobl
  ess Claims
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: 09/12\n类
- 别: Initial Jobless Claims\n时间会由 Apple 日历自动转换为
- 设备所在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 206K\n期
+ 间: 09/12\n类别: Initial Jobless Claims\n时间会由 Apple 日历
+ 自动转换为设备所在时区。\n来源: https://finviz.com/cale
+ ndar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1309,6 +1312,25 @@ BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:🟠 中影响｜Industrial Production MoM
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-421282@economic-calendar
+DTSTAMP:20260918T133000Z
+DTSTART:20260918T133000Z
+DTEND:20260918T140000Z
+SUMMARY:🟠 中影响｜美联储 Bowman 讲话｜Fed Bowman Speech
+DESCRIPTION:Finviz 美国经济日历｜中影响\n类别: Interest Ra
+ te\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储 Bowman 讲话｜Fed Bowman Spee
+ ch
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
