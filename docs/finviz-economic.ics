@@ -380,10 +380,10 @@ DTSTAMP:20260915T123000Z
 DTSTART:20260915T123000Z
 DTEND:20260915T130000Z
 SUMMARY:🟠 中影响｜NY Empire State Manufacturing Index
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 15\n前
- 值: 20.60\n期间: Sep\n类别: Ny Empire State Manufacturing Index\
- n时间会由 Apple 日历自动转换为设备所在时区。\n来
- 源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 14.75\n
+ 前值: 20.60\n期间: Sep\n类别: Ny Empire State Manufacturing Ind
+ ex\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -437,7 +437,7 @@ DTSTAMP:20260916T123000Z
 DTSTART:20260916T123000Z
 DTEND:20260916T130000Z
 SUMMARY:🟠 中影响｜Import Prices MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.2%\n
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.4%\n
  前值: -0.4%\n期间: Aug\n类别: Import Prices MoM\n时间会由 A
  pple 日历自动转换为设备所在时区。\n来源: https://finv
  iz.com/calendar/economic
@@ -476,10 +476,10 @@ DTSTAMP:20260916T123000Z
 DTSTART:20260916T123000Z
 DTEND:20260916T130000Z
 SUMMARY:🟠 中影响｜Export Prices MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -1.3%\n期
- 间: Aug\n类别: Export Prices MoM\n时间会由 Apple 日历自动
- 转换为设备所在时区。\n来源: https://finviz.com/calendar/e
- conomic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.5%\n
+ 前值: -1.3%\n期间: Aug\n类别: Export Prices MoM\n时间会由 A
+ pple 日历自动转换为设备所在时区。\n来源: https://finv
+ iz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -495,7 +495,7 @@ DTSTAMP:20260916T123000Z
 DTSTART:20260916T123000Z
 DTEND:20260916T130000Z
 SUMMARY:🟠 中影响｜Retail Sales Ex Autos MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.5%\n
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.6%\n
  前值: -0.3%\n期间: Aug\n类别: Retail Sales Ex Autos\n时间会
  由 Apple 日历自动转换为设备所在时区。\n来源: https:/
  /finviz.com/calendar/economic
@@ -514,10 +514,10 @@ DTSTAMP:20260916T123000Z
 DTSTART:20260916T123000Z
 DTEND:20260916T130000Z
 SUMMARY:🟠 中影响｜Retail Sales Control Group MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -0.4%\n期
- 间: Aug\n类别: Retail Sales Control Group\n时间会由 Apple 日
- 历自动转换为设备所在时区。\n来源: https://finviz.com/c
- alendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.4%\n
+ 前值: -0.4%\n期间: Aug\n类别: Retail Sales Control Group\n时
+ 间会由 Apple 日历自动转换为设备所在时区。\n来源: h
+ ttps://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -533,7 +533,7 @@ DTSTAMP:20260916T140000Z
 DTSTART:20260916T140000Z
 DTEND:20260916T143000Z
 SUMMARY:🟠 中影响｜Business Inventories MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.2%\n
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.8%\n
  前值: 0%\n期间: Jul\n类别: Business Inventories\n时间会由 A
  pple 日历自动转换为设备所在时区。\n来源: https://finv
  iz.com/calendar/economic
@@ -688,7 +688,7 @@ DTSTART:20260917T123000Z
 DTEND:20260917T130000Z
 SUMMARY:🟠 中影响｜首次申请失业救济人数｜Initial Jobl
  ess Claims
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 209K\n
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 205K\n
  前值: 206K\n期间: 09/12\n类别: Initial Jobless Claims\n时间
  会由 Apple 日历自动转换为设备所在时区。\n来源: http
  s://finviz.com/calendar/economic
@@ -708,10 +708,10 @@ DTSTAMP:20260917T123000Z
 DTSTART:20260917T123000Z
 DTEND:20260917T130000Z
 SUMMARY:🟠 中影响｜Philadelphia Fed Manufacturing Index
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 30\n前
- 值: 47.4\n期间: Sep\n类别: Philadelphia Fed Manufacturing Index\
- n时间会由 Apple 日历自动转换为设备所在时区。\n来
- 源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 32.5\n
+ 前值: 47.4\n期间: Sep\n类别: Philadelphia Fed Manufacturing Ind
+ ex\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -727,7 +727,7 @@ DTSTAMP:20260917T123000Z
 DTSTART:20260917T123000Z
 DTEND:20260917T130000Z
 SUMMARY:🔴 高影响｜Housing Starts
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 1.320M\n
+DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 1.31M\n
  前值: 1.239M\n期间: Aug\n类别: Housing Starts\n时间会由 App
  le 日历自动转换为设备所在时区。\n来源: https://finviz
  .com/calendar/economic
@@ -746,7 +746,7 @@ DTSTAMP:20260917T123000Z
 DTSTART:20260917T123000Z
 DTEND:20260917T130000Z
 SUMMARY:🔴 高影响｜Building Permits Prel
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 1.410M\n
+DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 1.41M\n
  前值: 1.433M\n期间: Aug\n类别: Building Permits\n时间会由 A
  pple 日历自动转换为设备所在时区。\n来源: https://finv
  iz.com/calendar/economic
