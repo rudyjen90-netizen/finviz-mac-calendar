@@ -361,10 +361,10 @@ DTSTAMP:20260915T121500Z
 DTSTART:20260915T121500Z
 DTEND:20260915T124500Z
 SUMMARY:🟠 中影响｜ADP Employment Change Weekly
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 12K\n类别
- : ADP Employment Change Weekly\n时间会由 Apple 日历自动转换
- 为设备所在时区。\n来源: https://finviz.com/calendar/economi
- c
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 16.25K\n
+ 前值: 12K\n类别: ADP Employment Change Weekly\n时间会由 Apple
+  日历自动转换为设备所在时区。\n来源: https://finviz.c
+ om/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -380,10 +380,10 @@ DTSTAMP:20260915T123000Z
 DTSTART:20260915T123000Z
 DTEND:20260915T130000Z
 SUMMARY:🟠 中影响｜NY Empire State Manufacturing Index
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 14.75\n
- 前值: 20.60\n期间: Sep\n类别: Ny Empire State Manufacturing Ind
- ex\n时间会由 Apple 日历自动转换为设备所在时区。\n
- 来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 7.60\n
+ 预测值: 14.75\n前值: 20.60\n期间: Sep\n类别: Ny Empire State
+  Manufacturing Index\n时间会由 Apple 日历自动转换为设备
+ 所在时区。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
