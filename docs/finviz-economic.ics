@@ -533,10 +533,10 @@ DTSTAMP:20260916T140000Z
 DTSTART:20260916T140000Z
 DTEND:20260916T143000Z
 SUMMARY:🟠 中影响｜Business Inventories MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.3%\n
- 前值: 0%\n期间: Jul\n类别: Business Inventories\n时间会由 A
- pple 日历自动转换为设备所在时区。\n来源: https://finv
- iz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 0.8%\n
+ 预测值: 0.3%\n前值: 0.1%\n期间: Jul\n类别: Business Inventor
+ ies\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -552,10 +552,10 @@ DTSTAMP:20260916T140000Z
 DTSTART:20260916T140000Z
 DTEND:20260916T143000Z
 SUMMARY:🟠 中影响｜NAHB Housing Market Index
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 34\n前
- 值: 35\n期间: Sep\n类别: Nahb Housing Market Index\n时间会由
-  Apple 日历自动转换为设备所在时区。\n来源: https://fi
- nviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 32\n预
+ 测值: 34\n前值: 35\n期间: Sep\n类别: Nahb Housing Market Inde
+ x\n时间会由 Apple 日历自动转换为设备所在时区。\n来
+ 源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -571,10 +571,10 @@ DTSTAMP:20260916T143000Z
 DTSTART:20260916T143000Z
 DTEND:20260916T150000Z
 SUMMARY:🟠 中影响｜EIA Crude Oil Stocks Change
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: -1.6M\n
- 前值: -0.391M\n期间: 09/12\n类别: Crude Oil Stocks Change\n时
- 间会由 Apple 日历自动转换为设备所在时区。\n来源: h
- ttps://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -0.64M\n
+ 预测值: -1.6M\n前值: -0.391M\n期间: 09/12\n类别: Crude Oil S
+ tocks Change\n时间会由 Apple 日历自动转换为设备所在时
+ 区。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -590,10 +590,10 @@ DTSTAMP:20260916T143000Z
 DTSTART:20260916T143000Z
 DTEND:20260916T150000Z
 SUMMARY:🟠 中影响｜EIA Gasoline Stocks Change
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: -1M\n前
- 值: 1.269M\n期间: 09/12\n类别: Gasoline Stocks Change\n时间会
- 由 Apple 日历自动转换为设备所在时区。\n来源: https:/
- /finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 0.794M\n
+ 预测值: -1M\n前值: 1.269M\n期间: 09/12\n类别: Gasoline Stock
+ s Change\n时间会由 Apple 日历自动转换为设备所在时区
+ 。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -610,10 +610,10 @@ DTSTART:20260916T180000Z
 DTEND:20260916T183000Z
 SUMMARY:🔴 高影响｜美联储利率决议｜Fed Interest Rate Dec
  ision
-DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: 4%\n前
- 值: 3.75%\n类别: Interest Rate\n时间会由 Apple 日历自动转
- 换为设备所在时区。\n来源: https://finviz.com/calendar/econ
- omic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n公布值: 4%\n预
+ 测值: 4%\n前值: 3.75%\n类别: Interest Rate\n时间会由 Apple 
+ 日历自动转换为设备所在时区。\n来源: https://finviz.co
+ m/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
