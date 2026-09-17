@@ -668,10 +668,10 @@ DTSTAMP:20260916T200000Z
 DTSTART:20260916T200000Z
 DTEND:20260916T203000Z
 SUMMARY:🟠 中影响｜Net Long-term TIC Flows
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: $146.3B\
- n前值: $172.7B\n期间: Jul\n类别: Net Long-term TIC Flows\n时
- 间会由 Apple 日历自动转换为设备所在时区。\n来源: h
- ttps://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -27.9B\n
+ 预测值: $146.3B\n前值: 174.4B\n期间: Jul\n类别: Net Long-ter
+ m TIC Flows\n时间会由 Apple 日历自动转换为设备所在时
+ 区。\n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
