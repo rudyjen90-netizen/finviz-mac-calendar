@@ -803,10 +803,10 @@ DTSTAMP:20260917T140000Z
 DTSTART:20260917T140000Z
 DTEND:20260917T143000Z
 SUMMARY:🟠 中影响｜Pending Home Sales MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 2%\n前
- 值: -2.3%\n期间: Aug\n类别: Pending Home Sales MoM\n时间会由
-  Apple 日历自动转换为设备所在时区。\n来源: https://fi
- nviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 0.3%\n
+ 预测值: 2%\n前值: -2.6%\n期间: Aug\n类别: Pending Home Sales
+  MoM\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -822,10 +822,10 @@ DTSTAMP:20260917T140000Z
 DTSTART:20260917T140000Z
 DTEND:20260917T143000Z
 SUMMARY:🟠 中影响｜Pending Home Sales YoY
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -2.2%\n期
- 间: Aug\n类别: Pending Home Sales\n时间会由 Apple 日历自动
- 转换为设备所在时区。\n来源: https://finviz.com/calendar/e
- conomic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -4.7%\n
+ 前值: -2.2%\n期间: Aug\n类别: Pending Home Sales\n时间会由 
+ Apple 日历自动转换为设备所在时区。\n来源: https://fin
+ viz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
