@@ -785,9 +785,9 @@ DTSTART:20260917T123000Z
 DTEND:20260917T130000Z
 SUMMARY:🟠 中影响｜Housing Starts MoM
 DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: -2.6%\n
- 前值: -9.0%\n期间: Aug\n类别: Housing Starts MoM\n时间会由 
- Apple 日历自动转换为设备所在时区。\n来源: https://fin
- viz.com/calendar/economic
+ 前值: -9%\n期间: Aug\n类别: Housing Starts MoM\n时间会由 Ap
+ ple 日历自动转换为设备所在时区。\n来源: https://finvi
+ z.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -972,6 +972,25 @@ DESCRIPTION:🟠 中影响｜美联储 Jefferson 讲话｜Fed Jefferso
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:finviz-421343@economic-calendar
+DTSTAMP:20260922T170000Z
+DTSTART:20260922T170000Z
+DTEND:20260922T173000Z
+SUMMARY:🟠 中影响｜美联储 Barkin 讲话｜Fed Barkin Speech
+DESCRIPTION:Finviz 美国经济日历｜中影响\n类别: Interest Ra
+ te\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储 Barkin 讲话｜Fed Barkin Spee
+ ch
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:finviz-396849@economic-calendar
 DTSTAMP:20260922T203000Z
 DTSTART:20260922T203000Z
@@ -1007,6 +1026,24 @@ BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:🟠 中影响｜MBA 30-Year Mortgage Rate
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-421342@economic-calendar
+DTSTAMP:20260923T140500Z
+DTSTART:20260923T140500Z
+DTEND:20260923T143500Z
+SUMMARY:🟠 中影响｜美联储 Barr 讲话｜Fed Barr Speech
+DESCRIPTION:Finviz 美国经济日历｜中影响\n类别: Interest Ra
+ te\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储 Barr 讲话｜Fed Barr Speech
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -1066,15 +1103,55 @@ DESCRIPTION:🔴 高影响｜President Trump and President Xi Summit
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:finviz-421344@economic-calendar
+DTSTAMP:20260924T081000Z
+DTSTART:20260924T081000Z
+DTEND:20260924T084000Z
+SUMMARY:🟠 中影响｜美联储 Williams 讲话｜Fed Williams Spee
+ ch
+DESCRIPTION:Finviz 美国经济日历｜中影响\n类别: Interest Ra
+ te\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储 Williams 讲话｜Fed Williams 
+ Speech
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-421345@economic-calendar
+DTSTAMP:20260924T120000Z
+DTSTART:20260924T120000Z
+DTEND:20260924T123000Z
+SUMMARY:🟠 中影响｜美联储 Barkin 讲话｜Fed Barkin Speech
+DESCRIPTION:Finviz 美国经济日历｜中影响\n类别: Interest Ra
+ te\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储 Barkin 讲话｜Fed Barkin Spee
+ ch
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:finviz-396869@economic-calendar
 DTSTAMP:20260924T123000Z
 DTSTART:20260924T123000Z
 DTEND:20260924T130000Z
 SUMMARY:🟠 中影响｜首次申请失业救济人数｜Initial Jobl
  ess Claims
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: 09/19\n类
- 别: Initial Jobless Claims\n时间会由 Apple 日历自动转换为
- 设备所在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 196K\n期
+ 间: 09/19\n类别: Initial Jobless Claims\n时间会由 Apple 日历
+ 自动转换为设备所在时区。\n来源: https://finviz.com/cale
+ ndar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1124,15 +1201,34 @@ DESCRIPTION:🟠 中影响｜美联储 Hammack 讲话｜Fed Hammack Sp
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:finviz-421346@economic-calendar
+DTSTAMP:20260924T125000Z
+DTSTART:20260924T125000Z
+DTEND:20260924T132000Z
+SUMMARY:🟠 中影响｜美联储 Hammack 讲话｜Fed Hammack Speech
+DESCRIPTION:Finviz 美国经济日历｜中影响\n类别: Interest Ra
+ te\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储 Hammack 讲话｜Fed Hammack Sp
+ eech
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:finviz-398250@economic-calendar
 DTSTAMP:20260924T140000Z
 DTSTART:20260924T140000Z
 DTEND:20260924T143000Z
 SUMMARY:🟠 中影响｜New Home Sales
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 0.607M\n期
- 间: Aug\n类别: New Home Sales\n时间会由 Apple 日历自动转
- 换为设备所在时区。\n来源: https://finviz.com/calendar/econ
- omic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.61M\n
+ 前值: 0.607M\n期间: Aug\n类别: New Home Sales\n时间会由 App
+ le 日历自动转换为设备所在时区。\n来源: https://finviz
+ .com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1181,16 +1277,36 @@ DESCRIPTION:🟠 中影响｜美联储 Paulson 讲话｜Fed Paulson Sp
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:finviz-421347@economic-calendar
+DTSTAMP:20260925T091500Z
+DTSTART:20260925T091500Z
+DTEND:20260925T094500Z
+SUMMARY:🟠 中影响｜美联储 Williams 讲话｜Fed Williams Spee
+ ch
+DESCRIPTION:Finviz 美国经济日历｜中影响\n类别: Interest Ra
+ te\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储 Williams 讲话｜Fed Williams 
+ Speech
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:finviz-398872@economic-calendar
 DTSTAMP:20260925T123000Z
 DTSTART:20260925T123000Z
 DTEND:20260925T130000Z
 SUMMARY:🔴 高影响｜耐用品订单（月率）｜Durable Goods O
  rders MoM
-DESCRIPTION:Finviz 美国经济日历｜高影响\n前值: 1.1%\n期
- 间: Aug\n类别: Durable Goods Orders\n时间会由 Apple 日历自
- 动转换为设备所在时区。\n来源: https://finviz.com/calenda
- r/economic
+DESCRIPTION:Finviz 美国经济日历｜高影响\n预测值: -0.5%\n
+ 前值: 1.1%\n期间: Aug\n类别: Durable Goods Orders\n时间会由
+  Apple 日历自动转换为设备所在时区。\n来源: https://fi
+ nviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2329,10 +2445,10 @@ DTSTAMP:20261015T123000Z
 DTSTART:20261015T123000Z
 DTEND:20261015T130000Z
 SUMMARY:🟠 中影响｜Philadelphia Fed Manufacturing Index
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: Oct\n类别
- : Philadelphia Fed Manufacturing Index\n时间会由 Apple 日历自
- 动转换为设备所在时区。\n来源: https://finviz.com/calenda
- r/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 37.8\n期
+ 间: Oct\n类别: Philadelphia Fed Manufacturing Index\n时间会由 
+ Apple 日历自动转换为设备所在时区。\n来源: https://fin
+ viz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
