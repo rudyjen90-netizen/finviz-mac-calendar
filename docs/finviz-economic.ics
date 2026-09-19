@@ -841,10 +841,10 @@ DTSTAMP:20260918T131500Z
 DTSTART:20260918T131500Z
 DTEND:20260918T134500Z
 SUMMARY:🟠 中影响｜Industrial Production MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 0.0%\n
- 预测值: 0.3%\n前值: 0.2%\n期间: Aug\n类别: Industrial Produc
- tion Mom\n时间会由 Apple 日历自动转换为设备所在时区
- 。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n公布值: 0%\n预
+ 测值: 0.3%\n前值: 0.2%\n期间: Aug\n类别: Industrial Productio
+ n Mom\n时间会由 Apple 日历自动转换为设备所在时区。\
+ n来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -870,6 +870,25 @@ BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:🟠 中影响｜美联储 Bowman 讲话｜Fed Bowman Spee
+ ch
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-421348@economic-calendar
+DTSTAMP:20260918T154500Z
+DTSTART:20260918T154500Z
+DTEND:20260918T161500Z
+SUMMARY:🟠 中影响｜美联储 Schmid 讲话｜Fed Schmid Speech
+DESCRIPTION:Finviz 美国经济日历｜中影响\n类别: Interest Ra
+ te\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储 Schmid 讲话｜Fed Schmid Spee
  ch
 END:VALARM
 END:VEVENT
@@ -1148,10 +1167,10 @@ DTSTART:20260924T123000Z
 DTEND:20260924T130000Z
 SUMMARY:🟠 中影响｜首次申请失业救济人数｜Initial Jobl
  ess Claims
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 196K\n期
- 间: 09/19\n类别: Initial Jobless Claims\n时间会由 Apple 日历
- 自动转换为设备所在时区。\n来源: https://finviz.com/cale
- ndar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 202K\n
+ 前值: 196K\n期间: 09/19\n类别: Initial Jobless Claims\n时间
+ 会由 Apple 日历自动转换为设备所在时区。\n来源: http
+ s://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1168,10 +1187,10 @@ DTSTAMP:20260924T123000Z
 DTSTART:20260924T123000Z
 DTEND:20260924T130000Z
 SUMMARY:🟠 中影响｜Current Account
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: -$226.8B\n
- 期间: Q2\n类别: Current Account\n时间会由 Apple 日历自动
- 转换为设备所在时区。\n来源: https://finviz.com/calendar/e
- conomic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: -$221B\n
+ 前值: -$226.8B\n期间: Q2\n类别: Current Account\n时间会由 A
+ pple 日历自动转换为设备所在时区。\n来源: https://finv
+ iz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -1323,10 +1342,10 @@ DTSTAMP:20260925T123000Z
 DTSTART:20260925T123000Z
 DTEND:20260925T130000Z
 SUMMARY:🟠 中影响｜Durable Goods Orders Ex Transp MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 0.4%\n期
- 间: Aug\n类别: Durable Goods Orders Ex Transportation\n时间会
- 由 Apple 日历自动转换为设备所在时区。\n来源: https:/
- /finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n预测值: 0.5%\n
+ 前值: 0.4%\n期间: Aug\n类别: Durable Goods Orders Ex Transporta
+ tion\n时间会由 Apple 日历自动转换为设备所在时区。\n
+ 来源: https://finviz.com/calendar/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -2676,9 +2695,10 @@ DTSTAMP:20261016T131500Z
 DTSTART:20261016T131500Z
 DTEND:20261016T134500Z
 SUMMARY:🟠 中影响｜Industrial Production MoM
-DESCRIPTION:Finviz 美国经济日历｜中影响\n期间: Sep\n类别
- : Industrial Production Mom\n时间会由 Apple 日历自动转换为
- 设备所在时区。\n来源: https://finviz.com/calendar/economic
+DESCRIPTION:Finviz 美国经济日历｜中影响\n前值: 0%\n期间:
+  Sep\n类别: Industrial Production Mom\n时间会由 Apple 日历自
+ 动转换为设备所在时区。\n来源: https://finviz.com/calenda
+ r/economic
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
