@@ -3,17 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>美股经济日历</title>
+  <meta name="color-scheme" content="light dark">
+  <title>美股经济日历与新手训练课</title>
   <style>
-    body { max-width: 720px; margin: 56px auto; padding: 0 22px; font: 17px/1.65 -apple-system, BlinkMacSystemFont, sans-serif; color: #172033; }
-    a { color: #075ee5; }
-    code { padding: 2px 6px; background: #f1f4f8; border-radius: 5px; }
+    :root { color-scheme: light dark; --accent: #1769e0; --card: rgba(120, 120, 128, .10); --muted: #667085; }
+    * { box-sizing: border-box; }
+    body { max-width: 820px; margin: 0 auto; padding: 54px 22px 72px; font: 17px/1.68 -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif; }
+    h1 { margin: 0 0 14px; font-size: clamp(30px, 7vw, 48px); line-height: 1.15; letter-spacing: -.03em; }
+    h2 { margin-top: 42px; font-size: 24px; }
+    .lead { max-width: 700px; color: var(--muted); font-size: 19px; }
+    .button { display: inline-block; margin: 18px 0 8px; padding: 12px 18px; border-radius: 12px; color: white; background: var(--accent); text-decoration: none; font-weight: 650; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+    .card { padding: 16px 17px; border-radius: 14px; background: var(--card); }
+    .card strong { display: block; margin-bottom: 4px; }
+    .steps { padding-left: 22px; }
+    code { padding: 2px 6px; background: var(--card); border-radius: 5px; overflow-wrap: anywhere; }
+    .small { margin-top: 34px; color: var(--muted); font-size: 14px; }
+    @media (max-width: 620px) { .grid { grid-template-columns: 1fr; } body { padding-top: 34px; } }
   </style>
 </head>
 <body>
-  <h1>美股经济日历（Finviz）</h1>
-  <p>这是一份自动更新的个人日历订阅源，只保留美国中、高影响经济事件，并在事件前 30 分钟提醒。</p>
-  <p><a href="finviz-economic.ics">打开或订阅日历</a></p>
-  <p>在 Mac 上请选择：<code>日历 → 文件 → 新建日历订阅</code>，粘贴本页的 ICS 地址。</p>
+  <h1>把经济日历变成你的美股训练场</h1>
+  <p class="lead">每 6 小时自动更新美国中、高影响经济事件，提前 30 分钟提醒。打开每个事件，就能看到中文解释、数据对比、市场传导链、重点观察和当天的一节新手课。</p>
+  <a class="button" href="finviz-economic.ics">打开或订阅日历</a>
+
+  <h2>8 周循序进阶</h2>
+  <div class="grid">
+    <div class="card"><strong>第1阶段｜经济日历</strong>学会看公布值、预测值、前值和预期差。</div>
+    <div class="card"><strong>第2阶段｜美联储</strong>理解利率、鹰鸽立场、讲话和点阵图。</div>
+    <div class="card"><strong>第3阶段｜美债</strong>读懂2年期、10年期、实际利率和收益率曲线。</div>
+    <div class="card"><strong>第4阶段｜通胀</strong>分清CPI、PCE、PPI和核心通胀。</div>
+    <div class="card"><strong>第5阶段｜就业</strong>串联非农、失业率、工资和初请失业金。</div>
+    <div class="card"><strong>第6阶段｜增长</strong>理解GDP、PMI、消费和房地产。</div>
+    <div class="card"><strong>第7阶段｜市场反应</strong>学会用美债、美元和指数交叉确认。</div>
+    <div class="card"><strong>第8阶段｜交易纪律</strong>训练风险收益比、仓位、确认与复盘。</div>
+  </div>
+
+  <h2>在 Apple 日历订阅</h2>
+  <ol class="steps">
+    <li>Mac 打开“日历”，选择 <code>文件 → 新建日历订阅</code>。</li>
+    <li>粘贴本页日历链接，自动刷新选择“每小时”。</li>
+    <li>不要选择“移除提醒”或“忽略提醒”。</li>
+  </ol>
+  <p>日历会按设备当前时区显示；这项说明不会再重复出现在每个事件里。</p>
+
+  <p class="small">数据来源：Finviz。本项目为非官方个人学习工具，不构成投资建议。</p>
 </body>
 </html>

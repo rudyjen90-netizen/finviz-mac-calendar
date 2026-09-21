@@ -32,6 +32,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Run calendar tests
+        run: python -m unittest discover -s tests -v
+
       - name: Download Finviz events and build ICS
         run: python finviz_calendar.py
 
