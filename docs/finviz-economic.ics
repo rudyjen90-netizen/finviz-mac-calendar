@@ -2451,6 +2451,120 @@ DESCRIPTION:🟠 中影响｜核心生产者物价指数（月率）
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:finviz-429127@economic-calendar
+DTSTAMP:20261113T141000Z
+DTSTART:20261113T141000Z
+DTEND:20261113T144000Z
+SUMMARY:🟠 中影响｜美联储柯林斯讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员柯林斯的公开讲话。\n为什么重要：市
+ 场会听他如何评价通胀、经济和未来利率，讲话可能
+ 改变市场对降息或加息路径的预期。\n\n【数据对比
+ 】\n判断顺序：先比较公布值与预测值，再看前值有
+ 没有被修正；没有预测值时不要硬判方向。\n\n【情
+ 景判断】\n偏利好时：如果讲话强调通胀继续回落、
+ 经济放缓，或更接近降息，通常对美股偏利好。\n偏
+ 利空时：如果强调通胀仍顽固、利率需要更久维持高
+ 位，甚至可能再次加息，通常对美股偏利空。\n新手
+ 注意：讲话前后几分钟波动可能突然放大。不要只看
+ 标题，要看原话是否超出市场原本预期。\n\n【市场
+ 观察】\n传导链：政策信息 → 利率路径预期 → 美债
+ 收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年
+ 期与10年期美债收益率、美元指数、QQQ/SPY、利率期货
+ 中的降息概率\n\n【今日学习卡】\n第8阶段·第5课｜
+ 建立交易纪律：复盘过程而不是只看盈亏\n记录预测
+ 差、跨市场反应、自己的判断和执行。赚钱但违反纪
+ 律也要纠正，亏钱但过程正确则保留方法。\n\n【公
+ 布后复盘】\n1. 公布值与预测值差多少？前值是否修
+ 正？\n2. 美债收益率和美元的第一反应是什么？\n3. QQ
+ Q与SPY是否确认这个方向？为什么？\n\n类别：利率与
+ 美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储柯林斯讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-429128@economic-calendar
+DTSTAMP:20261113T144000Z
+DTSTART:20261113T144000Z
+DTEND:20261113T151000Z
+SUMMARY:🟠 中影响｜美联储洛根讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员洛根的公开讲话。\n为什么重要：市场
+ 会听他如何评价通胀、经济和未来利率，讲话可能改
+ 变市场对降息或加息路径的预期。\n\n【数据对比】\n
+ 判断顺序：先比较公布值与预测值，再看前值有没有
+ 被修正；没有预测值时不要硬判方向。\n\n【情景判
+ 断】\n偏利好时：如果讲话强调通胀继续回落、经济
+ 放缓，或更接近降息，通常对美股偏利好。\n偏利空
+ 时：如果强调通胀仍顽固、利率需要更久维持高位，
+ 甚至可能再次加息，通常对美股偏利空。\n新手注意
+ ：讲话前后几分钟波动可能突然放大。不要只看标题
+ ，要看原话是否超出市场原本预期。\n\n【市场观察
+ 】\n传导链：政策信息 → 利率路径预期 → 美债收益
+ 率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年期与1
+ 0年期美债收益率、美元指数、QQQ/SPY、利率期货中的
+ 降息概率\n\n【今日学习卡】\n第8阶段·第5课｜建立
+ 交易纪律：复盘过程而不是只看盈亏\n记录预测差、
+ 跨市场反应、自己的判断和执行。赚钱但违反纪律也
+ 要纠正，亏钱但过程正确则保留方法。\n\n【公布后
+ 复盘】\n1. 公布值与预测值差多少？前值是否修正？\
+ n2. 美债收益率和美元的第一反应是什么？\n3. QQQ与SPY
+ 是否确认这个方向？为什么？\n\n类别：利率与美联
+ 储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储洛根讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-429186@economic-calendar
+DTSTAMP:20261113T153500Z
+DTSTART:20261113T153500Z
+DTEND:20261113T160500Z
+SUMMARY:🟠 中影响｜美联储柯林斯讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员柯林斯的公开讲话。\n为什么重要：市
+ 场会听他如何评价通胀、经济和未来利率，讲话可能
+ 改变市场对降息或加息路径的预期。\n\n【数据对比
+ 】\n判断顺序：先比较公布值与预测值，再看前值有
+ 没有被修正；没有预测值时不要硬判方向。\n\n【情
+ 景判断】\n偏利好时：如果讲话强调通胀继续回落、
+ 经济放缓，或更接近降息，通常对美股偏利好。\n偏
+ 利空时：如果强调通胀仍顽固、利率需要更久维持高
+ 位，甚至可能再次加息，通常对美股偏利空。\n新手
+ 注意：讲话前后几分钟波动可能突然放大。不要只看
+ 标题，要看原话是否超出市场原本预期。\n\n【市场
+ 观察】\n传导链：政策信息 → 利率路径预期 → 美债
+ 收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年
+ 期与10年期美债收益率、美元指数、QQQ/SPY、利率期货
+ 中的降息概率\n\n【今日学习卡】\n第8阶段·第5课｜
+ 建立交易纪律：复盘过程而不是只看盈亏\n记录预测
+ 差、跨市场反应、自己的判断和执行。赚钱但违反纪
+ 律也要纠正，亏钱但过程正确则保留方法。\n\n【公
+ 布后复盘】\n1. 公布值与预测值差多少？前值是否修
+ 正？\n2. 美债收益率和美元的第一反应是什么？\n3. QQ
+ Q与SPY是否确认这个方向？为什么？\n\n类别：利率与
+ 美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储柯林斯讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:finviz-426085@economic-calendar
 DTSTAMP:20261113T155000Z
 DTSTART:20261113T155000Z
@@ -2565,6 +2679,44 @@ DESCRIPTION:🟠 中影响｜美联储杰斐逊讲话
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:finviz-428970@economic-calendar
+DTSTAMP:20261116T100000Z
+DTSTART:20261116T100000Z
+DTEND:20261116T103000Z
+SUMMARY:🟠 中影响｜美联储巴尔讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员巴尔的公开讲话。\n为什么重要：市场
+ 会听他如何评价通胀、经济和未来利率，讲话可能改
+ 变市场对降息或加息路径的预期。\n\n【数据对比】\n
+ 判断顺序：先比较公布值与预测值，再看前值有没有
+ 被修正；没有预测值时不要硬判方向。\n\n【情景判
+ 断】\n偏利好时：如果讲话强调通胀继续回落、经济
+ 放缓，或更接近降息，通常对美股偏利好。\n偏利空
+ 时：如果强调通胀仍顽固、利率需要更久维持高位，
+ 甚至可能再次加息，通常对美股偏利空。\n新手注意
+ ：讲话前后几分钟波动可能突然放大。不要只看标题
+ ，要看原话是否超出市场原本预期。\n\n【市场观察
+ 】\n传导链：政策信息 → 利率路径预期 → 美债收益
+ 率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年期与1
+ 0年期美债收益率、美元指数、QQQ/SPY、利率期货中的
+ 降息概率\n\n【今日学习卡】\n第1阶段·第1课｜看懂
+ 经济日历：市场交易的是预期差\n数据本身好或坏并
+ 不是第一重点。真正推动价格的，往往是公布结果比
+ 市场原先预测高了多少或低了多少。\n\n【公布后复
+ 盘】\n1. 公布值与预测值差多少？前值是否修正？\n2.
+  美债收益率和美元的第一反应是什么？\n3. QQQ与SPY是
+ 否确认这个方向？为什么？\n\n类别：利率与美联储\n
+ 来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储巴尔讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:finviz-397940@economic-calendar
 DTSTAMP:20261116T133000Z
 DTSTART:20261116T133000Z
@@ -2599,6 +2751,158 @@ BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:🟠 中影响｜纽约州制造业指数
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-429141@economic-calendar
+DTSTAMP:20261116T140500Z
+DTSTART:20261116T140500Z
+DTEND:20261116T143500Z
+SUMMARY:🟠 中影响｜美联储威廉姆斯讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员威廉姆斯的公开讲话。\n为什么重要：
+ 市场会听他如何评价通胀、经济和未来利率，讲话可
+ 能改变市场对降息或加息路径的预期。\n\n【数据对
+ 比】\n判断顺序：先比较公布值与预测值，再看前值
+ 有没有被修正；没有预测值时不要硬判方向。\n\n【
+ 情景判断】\n偏利好时：如果讲话强调通胀继续回落
+ 、经济放缓，或更接近降息，通常对美股偏利好。\n
+ 偏利空时：如果强调通胀仍顽固、利率需要更久维持
+ 高位，甚至可能再次加息，通常对美股偏利空。\n新
+ 手注意：讲话前后几分钟波动可能突然放大。不要只
+ 看标题，要看原话是否超出市场原本预期。\n\n【市
+ 场观察】\n传导链：政策信息 → 利率路径预期 → 美
+ 债收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2
+ 年期与10年期美债收益率、美元指数、QQQ/SPY、利率期
+ 货中的降息概率\n\n【今日学习卡】\n第1阶段·第1课
+ ｜看懂经济日历：市场交易的是预期差\n数据本身好
+ 或坏并不是第一重点。真正推动价格的，往往是公布
+ 结果比市场原先预测高了多少或低了多少。\n\n【公
+ 布后复盘】\n1. 公布值与预测值差多少？前值是否修
+ 正？\n2. 美债收益率和美元的第一反应是什么？\n3. QQ
+ Q与SPY是否确认这个方向？为什么？\n\n类别：利率与
+ 美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储威廉姆斯讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-428971@economic-calendar
+DTSTAMP:20261116T170000Z
+DTSTART:20261116T170000Z
+DTEND:20261116T173000Z
+SUMMARY:🔴 高影响｜美联储Chair Warsh讲话
+DESCRIPTION:Finviz 美国经济日历｜高影响\n新手解释：这
+ 是美联储官员Chair Warsh的公开讲话。\n为什么重要：
+ 市场会听他如何评价通胀、经济和未来利率，讲话可
+ 能改变市场对降息或加息路径的预期。\n\n【数据对
+ 比】\n判断顺序：先比较公布值与预测值，再看前值
+ 有没有被修正；没有预测值时不要硬判方向。\n\n【
+ 情景判断】\n偏利好时：如果讲话强调通胀继续回落
+ 、经济放缓，或更接近降息，通常对美股偏利好。\n
+ 偏利空时：如果强调通胀仍顽固、利率需要更久维持
+ 高位，甚至可能再次加息，通常对美股偏利空。\n新
+ 手注意：讲话前后几分钟波动可能突然放大。不要只
+ 看标题，要看原话是否超出市场原本预期。\n\n【市
+ 场观察】\n传导链：政策信息 → 利率路径预期 → 美
+ 债收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2
+ 年期与10年期美债收益率、美元指数、QQQ/SPY、利率期
+ 货中的降息概率\n\n【今日学习卡】\n第1阶段·第1课
+ ｜看懂经济日历：市场交易的是预期差\n数据本身好
+ 或坏并不是第一重点。真正推动价格的，往往是公布
+ 结果比市场原先预测高了多少或低了多少。\n\n【公
+ 布后复盘】\n1. 公布值与预测值差多少？前值是否修
+ 正？\n2. 美债收益率和美元的第一反应是什么？\n3. QQ
+ Q与SPY是否确认这个方向？为什么？\n\n类别：利率与
+ 美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🔴 高影响｜美联储Chair Warsh讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-429142@economic-calendar
+DTSTAMP:20261116T231000Z
+DTSTART:20261116T231000Z
+DTEND:20261116T234000Z
+SUMMARY:🟠 中影响｜美联储巴尔金讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员巴尔金的公开讲话。\n为什么重要：市
+ 场会听他如何评价通胀、经济和未来利率，讲话可能
+ 改变市场对降息或加息路径的预期。\n\n【数据对比
+ 】\n判断顺序：先比较公布值与预测值，再看前值有
+ 没有被修正；没有预测值时不要硬判方向。\n\n【情
+ 景判断】\n偏利好时：如果讲话强调通胀继续回落、
+ 经济放缓，或更接近降息，通常对美股偏利好。\n偏
+ 利空时：如果强调通胀仍顽固、利率需要更久维持高
+ 位，甚至可能再次加息，通常对美股偏利空。\n新手
+ 注意：讲话前后几分钟波动可能突然放大。不要只看
+ 标题，要看原话是否超出市场原本预期。\n\n【市场
+ 观察】\n传导链：政策信息 → 利率路径预期 → 美债
+ 收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年
+ 期与10年期美债收益率、美元指数、QQQ/SPY、利率期货
+ 中的降息概率\n\n【今日学习卡】\n第1阶段·第1课｜
+ 看懂经济日历：市场交易的是预期差\n数据本身好或
+ 坏并不是第一重点。真正推动价格的，往往是公布结
+ 果比市场原先预测高了多少或低了多少。\n\n【公布
+ 后复盘】\n1. 公布值与预测值差多少？前值是否修正
+ ？\n2. 美债收益率和美元的第一反应是什么？\n3. QQQ
+ 与SPY是否确认这个方向？为什么？\n\n类别：利率与
+ 美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储巴尔金讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-429155@economic-calendar
+DTSTAMP:20261117T123000Z
+DTSTART:20261117T123000Z
+DTEND:20261117T130000Z
+SUMMARY:🟠 中影响｜美联储穆萨莱姆讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员穆萨莱姆的公开讲话。\n为什么重要：
+ 市场会听他如何评价通胀、经济和未来利率，讲话可
+ 能改变市场对降息或加息路径的预期。\n\n【数据对
+ 比】\n判断顺序：先比较公布值与预测值，再看前值
+ 有没有被修正；没有预测值时不要硬判方向。\n\n【
+ 情景判断】\n偏利好时：如果讲话强调通胀继续回落
+ 、经济放缓，或更接近降息，通常对美股偏利好。\n
+ 偏利空时：如果强调通胀仍顽固、利率需要更久维持
+ 高位，甚至可能再次加息，通常对美股偏利空。\n新
+ 手注意：讲话前后几分钟波动可能突然放大。不要只
+ 看标题，要看原话是否超出市场原本预期。\n\n【市
+ 场观察】\n传导链：政策信息 → 利率路径预期 → 美
+ 债收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2
+ 年期与10年期美债收益率、美元指数、QQQ/SPY、利率期
+ 货中的降息概率\n\n【今日学习卡】\n第1阶段·第2课
+ ｜看懂经济日历：分清公布值、预测值和前值\n公布
+ 值是这次答案，预测值是市场考前猜测，前值是上次
+ 成绩。先比较公布值与预测值，再参考前值判断趋势
+ 。\n\n【公布后复盘】\n1. 公布值与预测值差多少？前
+ 值是否修正？\n2. 美债收益率和美元的第一反应是什
+ 么？\n3. QQQ与SPY是否确认这个方向？为什么？\n\n类别
+ ：利率与美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储穆萨莱姆讲话
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -2861,6 +3165,82 @@ DESCRIPTION:🟠 中影响｜工业产出（月率）
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:finviz-428972@economic-calendar
+DTSTAMP:20261117T142000Z
+DTSTART:20261117T142000Z
+DTEND:20261117T145000Z
+SUMMARY:🟠 中影响｜美联储沃勒讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员沃勒的公开讲话。\n为什么重要：市场
+ 会听他如何评价通胀、经济和未来利率，讲话可能改
+ 变市场对降息或加息路径的预期。\n\n【数据对比】\n
+ 判断顺序：先比较公布值与预测值，再看前值有没有
+ 被修正；没有预测值时不要硬判方向。\n\n【情景判
+ 断】\n偏利好时：如果讲话强调通胀继续回落、经济
+ 放缓，或更接近降息，通常对美股偏利好。\n偏利空
+ 时：如果强调通胀仍顽固、利率需要更久维持高位，
+ 甚至可能再次加息，通常对美股偏利空。\n新手注意
+ ：讲话前后几分钟波动可能突然放大。不要只看标题
+ ，要看原话是否超出市场原本预期。\n\n【市场观察
+ 】\n传导链：政策信息 → 利率路径预期 → 美债收益
+ 率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年期与1
+ 0年期美债收益率、美元指数、QQQ/SPY、利率期货中的
+ 降息概率\n\n【今日学习卡】\n第1阶段·第2课｜看懂
+ 经济日历：分清公布值、预测值和前值\n公布值是这
+ 次答案，预测值是市场考前猜测，前值是上次成绩。
+ 先比较公布值与预测值，再参考前值判断趋势。\n\n
+ 【公布后复盘】\n1. 公布值与预测值差多少？前值是
+ 否修正？\n2. 美债收益率和美元的第一反应是什么？\
+ n3. QQQ与SPY是否确认这个方向？为什么？\n\n类别：利
+ 率与美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储沃勒讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-429156@economic-calendar
+DTSTAMP:20261117T143000Z
+DTSTART:20261117T143000Z
+DTEND:20261117T150000Z
+SUMMARY:🟠 中影响｜美联储哈马克讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员哈马克的公开讲话。\n为什么重要：市
+ 场会听他如何评价通胀、经济和未来利率，讲话可能
+ 改变市场对降息或加息路径的预期。\n\n【数据对比
+ 】\n判断顺序：先比较公布值与预测值，再看前值有
+ 没有被修正；没有预测值时不要硬判方向。\n\n【情
+ 景判断】\n偏利好时：如果讲话强调通胀继续回落、
+ 经济放缓，或更接近降息，通常对美股偏利好。\n偏
+ 利空时：如果强调通胀仍顽固、利率需要更久维持高
+ 位，甚至可能再次加息，通常对美股偏利空。\n新手
+ 注意：讲话前后几分钟波动可能突然放大。不要只看
+ 标题，要看原话是否超出市场原本预期。\n\n【市场
+ 观察】\n传导链：政策信息 → 利率路径预期 → 美债
+ 收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年
+ 期与10年期美债收益率、美元指数、QQQ/SPY、利率期货
+ 中的降息概率\n\n【今日学习卡】\n第1阶段·第2课｜
+ 看懂经济日历：分清公布值、预测值和前值\n公布值
+ 是这次答案，预测值是市场考前猜测，前值是上次成
+ 绩。先比较公布值与预测值，再参考前值判断趋势。
+ \n\n【公布后复盘】\n1. 公布值与预测值差多少？前值
+ 是否修正？\n2. 美债收益率和美元的第一反应是什么
+ ？\n3. QQQ与SPY是否确认这个方向？为什么？\n\n类别：
+ 利率与美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储哈马克讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:finviz-398435@economic-calendar
 DTSTAMP:20261117T150000Z
 DTSTART:20261117T150000Z
@@ -2972,6 +3352,44 @@ DESCRIPTION:🟠 中影响｜Atlanta Fed GDPNow
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:finviz-429157@economic-calendar
+DTSTAMP:20261117T192500Z
+DTSTART:20261117T192500Z
+DTEND:20261117T195500Z
+SUMMARY:🟠 中影响｜美联储威廉姆斯讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员威廉姆斯的公开讲话。\n为什么重要：
+ 市场会听他如何评价通胀、经济和未来利率，讲话可
+ 能改变市场对降息或加息路径的预期。\n\n【数据对
+ 比】\n判断顺序：先比较公布值与预测值，再看前值
+ 有没有被修正；没有预测值时不要硬判方向。\n\n【
+ 情景判断】\n偏利好时：如果讲话强调通胀继续回落
+ 、经济放缓，或更接近降息，通常对美股偏利好。\n
+ 偏利空时：如果强调通胀仍顽固、利率需要更久维持
+ 高位，甚至可能再次加息，通常对美股偏利空。\n新
+ 手注意：讲话前后几分钟波动可能突然放大。不要只
+ 看标题，要看原话是否超出市场原本预期。\n\n【市
+ 场观察】\n传导链：政策信息 → 利率路径预期 → 美
+ 债收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2
+ 年期与10年期美债收益率、美元指数、QQQ/SPY、利率期
+ 货中的降息概率\n\n【今日学习卡】\n第1阶段·第2课
+ ｜看懂经济日历：分清公布值、预测值和前值\n公布
+ 值是这次答案，预测值是市场考前猜测，前值是上次
+ 成绩。先比较公布值与预测值，再参考前值判断趋势
+ 。\n\n【公布后复盘】\n1. 公布值与预测值差多少？前
+ 值是否修正？\n2. 美债收益率和美元的第一反应是什
+ 么？\n3. QQQ与SPY是否确认这个方向？为什么？\n\n类别
+ ：利率与美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储威廉姆斯讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:finviz-397327@economic-calendar
 DTSTAMP:20261117T213000Z
 DTSTART:20261117T213000Z
@@ -3056,25 +3474,25 @@ DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
  是观察美国房地产销售、开工、许可或融资成本的数
  据。\n为什么重要：房地产对利率很敏感，又会影响
  建筑、消费和银行，因此是观察经济周期的重要窗口
- 。\n\n【数据对比】\n前值：1.398M\n期间：Oct\n判断顺
- 序：先比较公布值与预测值，再看前值有没有被修正
- ；没有预测值时不要硬判方向。\n\n【情景判断】\n偏
- 利好时：数据稳健且按揭利率没有明显上升，通常更
- 有利于软着陆和周期板块。\n偏利空时：数据显著走
- 弱可能增加经济放缓担忧；过热和房价压力也可能使
- 利率更久维持高位。\n新手注意：房屋销量、价格和
- 开工可能方向不同，要先判断变化来自需求、利率还
- 是供应。\n\n【市场观察】\n传导链：利率与购房能力
-  → 销售和开工 → 经济增长预期 → 周期板块与大盘
- \n重点观察：10年期美债收益率、按揭利率、住宅建
- 筑与房地产相关股票、SPY\n\n【今日学习卡】\n第1阶
- 段·第3课｜看懂经济日历：修正值会改写故事\n不少
- 数据会修改上个月的数字。即使本月符合预测，前值
- 若被大幅上修或下修，市场仍可能重新定价。\n\n【
- 公布后复盘】\n1. 公布值与预测值差多少？前值是否
- 修正？\n2. 美债收益率和美元的第一反应是什么？\n3.
-  QQQ与SPY是否确认这个方向？为什么？\n\n类别：Buildin
- g Permits\n来源：Finviz
+ 。\n\n【数据对比】\n预测值：1.38M\n前值：1.398M\n期间
+ ：Oct\n判断顺序：先比较公布值与预测值，再看前值
+ 有没有被修正；没有预测值时不要硬判方向。\n\n【
+ 情景判断】\n偏利好时：数据稳健且按揭利率没有明
+ 显上升，通常更有利于软着陆和周期板块。\n偏利空
+ 时：数据显著走弱可能增加经济放缓担忧；过热和房
+ 价压力也可能使利率更久维持高位。\n新手注意：房
+ 屋销量、价格和开工可能方向不同，要先判断变化来
+ 自需求、利率还是供应。\n\n【市场观察】\n传导链：
+ 利率与购房能力 → 销售和开工 → 经济增长预期 → 
+ 周期板块与大盘\n重点观察：10年期美债收益率、按
+ 揭利率、住宅建筑与房地产相关股票、SPY\n\n【今日
+ 学习卡】\n第1阶段·第3课｜看懂经济日历：修正值会
+ 改写故事\n不少数据会修改上个月的数字。即使本月
+ 符合预测，前值若被大幅上修或下修，市场仍可能重
+ 新定价。\n\n【公布后复盘】\n1. 公布值与预测值差多
+ 少？前值是否修正？\n2. 美债收益率和美元的第一反
+ 应是什么？\n3. QQQ与SPY是否确认这个方向？为什么？\
+ n\n类别：Building Permits\n来源：Finviz
 URL:https://finviz.com/calendar/economic
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
@@ -3308,6 +3726,44 @@ DESCRIPTION:🟠 中影响｜Atlanta Fed GDPNow
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:finviz-428973@economic-calendar
+DTSTAMP:20261118T183500Z
+DTSTART:20261118T183500Z
+DTEND:20261118T190500Z
+SUMMARY:🟠 中影响｜美联储巴尔讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员巴尔的公开讲话。\n为什么重要：市场
+ 会听他如何评价通胀、经济和未来利率，讲话可能改
+ 变市场对降息或加息路径的预期。\n\n【数据对比】\n
+ 判断顺序：先比较公布值与预测值，再看前值有没有
+ 被修正；没有预测值时不要硬判方向。\n\n【情景判
+ 断】\n偏利好时：如果讲话强调通胀继续回落、经济
+ 放缓，或更接近降息，通常对美股偏利好。\n偏利空
+ 时：如果强调通胀仍顽固、利率需要更久维持高位，
+ 甚至可能再次加息，通常对美股偏利空。\n新手注意
+ ：讲话前后几分钟波动可能突然放大。不要只看标题
+ ，要看原话是否超出市场原本预期。\n\n【市场观察
+ 】\n传导链：政策信息 → 利率路径预期 → 美债收益
+ 率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年期与1
+ 0年期美债收益率、美元指数、QQQ/SPY、利率期货中的
+ 降息概率\n\n【今日学习卡】\n第1阶段·第3课｜看懂
+ 经济日历：修正值会改写故事\n不少数据会修改上个
+ 月的数字。即使本月符合预测，前值若被大幅上修或
+ 下修，市场仍可能重新定价。\n\n【公布后复盘】\n1. 
+ 公布值与预测值差多少？前值是否修正？\n2. 美债收
+ 益率和美元的第一反应是什么？\n3. QQQ与SPY是否确认
+ 这个方向？为什么？\n\n类别：利率与美联储\n来源：
+ Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储巴尔讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:finviz-390612@economic-calendar
 DTSTAMP:20261118T190000Z
 DTSTART:20261118T190000Z
@@ -3342,6 +3798,44 @@ BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:🔴 高影响｜美联储会议纪要
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-429158@economic-calendar
+DTSTAMP:20261118T193000Z
+DTSTART:20261118T193000Z
+DTEND:20261118T200000Z
+SUMMARY:🟠 中影响｜美联储威廉姆斯讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员威廉姆斯的公开讲话。\n为什么重要：
+ 市场会听他如何评价通胀、经济和未来利率，讲话可
+ 能改变市场对降息或加息路径的预期。\n\n【数据对
+ 比】\n判断顺序：先比较公布值与预测值，再看前值
+ 有没有被修正；没有预测值时不要硬判方向。\n\n【
+ 情景判断】\n偏利好时：如果讲话强调通胀继续回落
+ 、经济放缓，或更接近降息，通常对美股偏利好。\n
+ 偏利空时：如果强调通胀仍顽固、利率需要更久维持
+ 高位，甚至可能再次加息，通常对美股偏利空。\n新
+ 手注意：讲话前后几分钟波动可能突然放大。不要只
+ 看标题，要看原话是否超出市场原本预期。\n\n【市
+ 场观察】\n传导链：政策信息 → 利率路径预期 → 美
+ 债收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2
+ 年期与10年期美债收益率、美元指数、QQQ/SPY、利率期
+ 货中的降息概率\n\n【今日学习卡】\n第1阶段·第3课
+ ｜看懂经济日历：修正值会改写故事\n不少数据会修
+ 改上个月的数字。即使本月符合预测，前值若被大幅
+ 上修或下修，市场仍可能重新定价。\n\n【公布后复
+ 盘】\n1. 公布值与预测值差多少？前值是否修正？\n2.
+  美债收益率和美元的第一反应是什么？\n3. QQQ与SPY是
+ 否确认这个方向？为什么？\n\n类别：利率与美联储\n
+ 来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储威廉姆斯讲话
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
@@ -3533,6 +4027,196 @@ DESCRIPTION:🟠 中影响｜美联储哈马克讲话
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:finviz-429159@economic-calendar
+DTSTAMP:20261119T173000Z
+DTSTART:20261119T173000Z
+DTEND:20261119T180000Z
+SUMMARY:🟠 中影响｜美联储古尔斯比讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员古尔斯比的公开讲话。\n为什么重要：
+ 市场会听他如何评价通胀、经济和未来利率，讲话可
+ 能改变市场对降息或加息路径的预期。\n\n【数据对
+ 比】\n判断顺序：先比较公布值与预测值，再看前值
+ 有没有被修正；没有预测值时不要硬判方向。\n\n【
+ 情景判断】\n偏利好时：如果讲话强调通胀继续回落
+ 、经济放缓，或更接近降息，通常对美股偏利好。\n
+ 偏利空时：如果强调通胀仍顽固、利率需要更久维持
+ 高位，甚至可能再次加息，通常对美股偏利空。\n新
+ 手注意：讲话前后几分钟波动可能突然放大。不要只
+ 看标题，要看原话是否超出市场原本预期。\n\n【市
+ 场观察】\n传导链：政策信息 → 利率路径预期 → 美
+ 债收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2
+ 年期与10年期美债收益率、美元指数、QQQ/SPY、利率期
+ 货中的降息概率\n\n【今日学习卡】\n第1阶段·第4课
+ ｜看懂经济日历：重要数据也不等于必涨必跌\n“高
+ 影响”只表示可能引起较大波动，不代表方向。方向
+ 取决于预期差、当时的市场主线和仓位拥挤程度。\n\
+ n【公布后复盘】\n1. 公布值与预测值差多少？前值是
+ 否修正？\n2. 美债收益率和美元的第一反应是什么？\
+ n3. QQQ与SPY是否确认这个方向？为什么？\n\n类别：利
+ 率与美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储古尔斯比讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-428974@economic-calendar
+DTSTAMP:20261119T191500Z
+DTSTART:20261119T191500Z
+DTEND:20261119T194500Z
+SUMMARY:🟠 中影响｜美联储巴尔讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员巴尔的公开讲话。\n为什么重要：市场
+ 会听他如何评价通胀、经济和未来利率，讲话可能改
+ 变市场对降息或加息路径的预期。\n\n【数据对比】\n
+ 判断顺序：先比较公布值与预测值，再看前值有没有
+ 被修正；没有预测值时不要硬判方向。\n\n【情景判
+ 断】\n偏利好时：如果讲话强调通胀继续回落、经济
+ 放缓，或更接近降息，通常对美股偏利好。\n偏利空
+ 时：如果强调通胀仍顽固、利率需要更久维持高位，
+ 甚至可能再次加息，通常对美股偏利空。\n新手注意
+ ：讲话前后几分钟波动可能突然放大。不要只看标题
+ ，要看原话是否超出市场原本预期。\n\n【市场观察
+ 】\n传导链：政策信息 → 利率路径预期 → 美债收益
+ 率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年期与1
+ 0年期美债收益率、美元指数、QQQ/SPY、利率期货中的
+ 降息概率\n\n【今日学习卡】\n第1阶段·第4课｜看懂
+ 经济日历：重要数据也不等于必涨必跌\n“高影响”
+ 只表示可能引起较大波动，不代表方向。方向取决于
+ 预期差、当时的市场主线和仓位拥挤程度。\n\n【公
+ 布后复盘】\n1. 公布值与预测值差多少？前值是否修
+ 正？\n2. 美债收益率和美元的第一反应是什么？\n3. QQ
+ Q与SPY是否确认这个方向？为什么？\n\n类别：利率与
+ 美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储巴尔讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-429172@economic-calendar
+DTSTAMP:20261119T210000Z
+DTSTART:20261119T210000Z
+DTEND:20261119T213000Z
+SUMMARY:🟠 中影响｜美联储巴尔金讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员巴尔金的公开讲话。\n为什么重要：市
+ 场会听他如何评价通胀、经济和未来利率，讲话可能
+ 改变市场对降息或加息路径的预期。\n\n【数据对比
+ 】\n判断顺序：先比较公布值与预测值，再看前值有
+ 没有被修正；没有预测值时不要硬判方向。\n\n【情
+ 景判断】\n偏利好时：如果讲话强调通胀继续回落、
+ 经济放缓，或更接近降息，通常对美股偏利好。\n偏
+ 利空时：如果强调通胀仍顽固、利率需要更久维持高
+ 位，甚至可能再次加息，通常对美股偏利空。\n新手
+ 注意：讲话前后几分钟波动可能突然放大。不要只看
+ 标题，要看原话是否超出市场原本预期。\n\n【市场
+ 观察】\n传导链：政策信息 → 利率路径预期 → 美债
+ 收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年
+ 期与10年期美债收益率、美元指数、QQQ/SPY、利率期货
+ 中的降息概率\n\n【今日学习卡】\n第1阶段·第4课｜
+ 看懂经济日历：重要数据也不等于必涨必跌\n“高影
+ 响”只表示可能引起较大波动，不代表方向。方向取
+ 决于预期差、当时的市场主线和仓位拥挤程度。\n\n
+ 【公布后复盘】\n1. 公布值与预测值差多少？前值是
+ 否修正？\n2. 美债收益率和美元的第一反应是什么？\
+ n3. QQQ与SPY是否确认这个方向？为什么？\n\n类别：利
+ 率与美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储巴尔金讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-429173@economic-calendar
+DTSTAMP:20261119T233000Z
+DTSTART:20261119T233000Z
+DTEND:20261120T000000Z
+SUMMARY:🟠 中影响｜美联储保尔森讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员保尔森的公开讲话。\n为什么重要：市
+ 场会听他如何评价通胀、经济和未来利率，讲话可能
+ 改变市场对降息或加息路径的预期。\n\n【数据对比
+ 】\n判断顺序：先比较公布值与预测值，再看前值有
+ 没有被修正；没有预测值时不要硬判方向。\n\n【情
+ 景判断】\n偏利好时：如果讲话强调通胀继续回落、
+ 经济放缓，或更接近降息，通常对美股偏利好。\n偏
+ 利空时：如果强调通胀仍顽固、利率需要更久维持高
+ 位，甚至可能再次加息，通常对美股偏利空。\n新手
+ 注意：讲话前后几分钟波动可能突然放大。不要只看
+ 标题，要看原话是否超出市场原本预期。\n\n【市场
+ 观察】\n传导链：政策信息 → 利率路径预期 → 美债
+ 收益率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年
+ 期与10年期美债收益率、美元指数、QQQ/SPY、利率期货
+ 中的降息概率\n\n【今日学习卡】\n第1阶段·第4课｜
+ 看懂经济日历：重要数据也不等于必涨必跌\n“高影
+ 响”只表示可能引起较大波动，不代表方向。方向取
+ 决于预期差、当时的市场主线和仓位拥挤程度。\n\n
+ 【公布后复盘】\n1. 公布值与预测值差多少？前值是
+ 否修正？\n2. 美债收益率和美元的第一反应是什么？\
+ n3. QQQ与SPY是否确认这个方向？为什么？\n\n类别：利
+ 率与美联储\n来源：Finviz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储保尔森讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-428975@economic-calendar
+DTSTAMP:20261120T132500Z
+DTSTART:20261120T132500Z
+DTEND:20261120T135500Z
+SUMMARY:🟠 中影响｜美联储沃勒讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员沃勒的公开讲话。\n为什么重要：市场
+ 会听他如何评价通胀、经济和未来利率，讲话可能改
+ 变市场对降息或加息路径的预期。\n\n【数据对比】\n
+ 判断顺序：先比较公布值与预测值，再看前值有没有
+ 被修正；没有预测值时不要硬判方向。\n\n【情景判
+ 断】\n偏利好时：如果讲话强调通胀继续回落、经济
+ 放缓，或更接近降息，通常对美股偏利好。\n偏利空
+ 时：如果强调通胀仍顽固、利率需要更久维持高位，
+ 甚至可能再次加息，通常对美股偏利空。\n新手注意
+ ：讲话前后几分钟波动可能突然放大。不要只看标题
+ ，要看原话是否超出市场原本预期。\n\n【市场观察
+ 】\n传导链：政策信息 → 利率路径预期 → 美债收益
+ 率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年期与1
+ 0年期美债收益率、美元指数、QQQ/SPY、利率期货中的
+ 降息概率\n\n【今日学习卡】\n第1阶段·第5课｜看懂
+ 经济日历：把单项数据放进组合\n一次数据只是拼图
+ 之一。把通胀、就业、增长和美联储放在一起看，结
+ 论才比单看一个数字可靠。\n\n【公布后复盘】\n1. 公
+ 布值与预测值差多少？前值是否修正？\n2. 美债收益
+ 率和美元的第一反应是什么？\n3. QQQ与SPY是否确认这
+ 个方向？为什么？\n\n类别：利率与美联储\n来源：Fin
+ viz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储沃勒讲话
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:finviz-397401@economic-calendar
 DTSTAMP:20261120T150000Z
 DTSTART:20261120T150000Z
@@ -3566,6 +4250,44 @@ BEGIN:VALARM
 TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:🟠 中影响｜密歇根消费者信心（终值）
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:finviz-428976@economic-calendar
+DTSTAMP:20261120T171500Z
+DTSTART:20261120T171500Z
+DTEND:20261120T174500Z
+SUMMARY:🟠 中影响｜美联储库克讲话
+DESCRIPTION:Finviz 美国经济日历｜中影响\n新手解释：这
+ 是美联储官员库克的公开讲话。\n为什么重要：市场
+ 会听他如何评价通胀、经济和未来利率，讲话可能改
+ 变市场对降息或加息路径的预期。\n\n【数据对比】\n
+ 判断顺序：先比较公布值与预测值，再看前值有没有
+ 被修正；没有预测值时不要硬判方向。\n\n【情景判
+ 断】\n偏利好时：如果讲话强调通胀继续回落、经济
+ 放缓，或更接近降息，通常对美股偏利好。\n偏利空
+ 时：如果强调通胀仍顽固、利率需要更久维持高位，
+ 甚至可能再次加息，通常对美股偏利空。\n新手注意
+ ：讲话前后几分钟波动可能突然放大。不要只看标题
+ ，要看原话是否超出市场原本预期。\n\n【市场观察
+ 】\n传导链：政策信息 → 利率路径预期 → 美债收益
+ 率与美元 → 股票估值 → QQQ/SPY\n重点观察：2年期与1
+ 0年期美债收益率、美元指数、QQQ/SPY、利率期货中的
+ 降息概率\n\n【今日学习卡】\n第1阶段·第5课｜看懂
+ 经济日历：把单项数据放进组合\n一次数据只是拼图
+ 之一。把通胀、就业、增长和美联储放在一起看，结
+ 论才比单看一个数字可靠。\n\n【公布后复盘】\n1. 公
+ 布值与预测值差多少？前值是否修正？\n2. 美债收益
+ 率和美元的第一反应是什么？\n3. QQQ与SPY是否确认这
+ 个方向？为什么？\n\n类别：利率与美联储\n来源：Fin
+ viz
+URL:https://finviz.com/calendar/economic
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:🟠 中影响｜美联储库克讲话
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
