@@ -37,10 +37,10 @@ def intraday(symbol,name,tz,source,stamp,lines,rows):
                 price=o if i==0 else bars[i-1][2]
                 if when.astimezone(dt.timezone.utc)>now: continue
                 label='开盘' if i==0 else '盘中'
-                title=f'{name}｜{label} {price:,.2f}｜昨收 {previous:,.2f}｜{(price/previous-1)*100:+.2f}%'
+                title=f'🔵 {name}｜{label} {price:,.2f}｜昨收 {previous:,.2f}｜{(price/previous-1)*100:+.2f}%'
                 desc=f'昨收：{previous:,.2f}\n{label}点数：{price:,.2f}\n涨跌点数：{price-previous:+.2f}\n涨跌幅：{(price/previous-1)*100:+.2f}%\n行情时间：{when.isoformat()}\n数据：Yahoo Finance（可能延迟）'
                 utc=when.astimezone(dt.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
-                lines+=['BEGIN:VEVENT',f'UID:{symbol}-{utc}-intraday@market-calendar','DTSTAMP:'+stamp,'DTSTART:'+utc,'DURATION:PT1H','SUMMARY:'+esc(title),'DESCRIPTION:'+esc(desc),'END:VEVENT']
+                lines+=['BEGIN:VEVENT',f'UID:{symbol}-{utc}-intraday@market-calendar','DTSTAMP:'+stamp,'DTSTART:'+utc,'DURATION:PT1H','COLOR:blue','SUMMARY:'+esc(title),'DESCRIPTION:'+esc(desc),'END:VEVENT']
 
 def main():
     lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Market Calendar//CN','CALSCALE:GREGORIAN','X-WR-CALNAME:中美股市每日观察']
@@ -66,9 +66,9 @@ def main():
             close=dt.datetime.combine(day,dt.time(hour),tzinfo=tz).astimezone(dt.timezone.utc)
             if close+dt.timedelta(minutes=20)>dt.datetime.now(dt.timezone.utc): continue
             pct=(price/prev-1)*100
-            title=f'{name}｜收盘 {price:,.2f}｜昨收 {prev:,.2f}｜{pct:+.2f}%'
+            title=f'🟣 {name}｜收盘 {price:,.2f}｜昨收 {prev:,.2f}｜{pct:+.2f}%'
             desc=f'交易日：{day}\n昨收：{prev:,.2f}\n收盘：{price:,.2f}\n涨跌点数：{price-prev:+.2f}\n涨跌幅：{pct:+.2f}%\n数据：{source}（非官方，可能延迟）'
-            lines+=['BEGIN:VEVENT',f'UID:{symbol}-{day}@market-calendar','DTSTAMP:'+stamp,'DTSTART:'+close.strftime('%Y%m%dT%H%M%SZ'),'DURATION:PT24H','SUMMARY:'+esc(title),'DESCRIPTION:'+esc(desc),'END:VEVENT']
+            lines+=['BEGIN:VEVENT',f'UID:{symbol}-{day}@market-calendar','DTSTAMP:'+stamp,'DTSTART:'+close.strftime('%Y%m%dT%H%M%SZ'),'DURATION:PT24H','COLOR:purple','SUMMARY:'+esc(title),'DESCRIPTION:'+esc(desc),'END:VEVENT']
         try:
             intraday(symbol,name,tz,source,stamp,lines,rows)
         except Exception as exc:
