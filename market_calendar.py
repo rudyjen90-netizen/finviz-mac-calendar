@@ -41,7 +41,7 @@ def main():
             pct=(price/prev-1)*100
             title=f'{name} {price:,.2f} {pct:+.2f}%'
             desc=f'交易日：{day}\n收盘：{price:,.2f}\n涨跌点数：{price-prev:+.2f}\n涨跌幅：{pct:+.2f}%\n数据：{source}（非官方，可能延迟）'
-            lines+=['BEGIN:VEVENT',f'UID:{symbol}-{day}@market-calendar','DTSTAMP:'+stamp,'DTSTART:'+close.strftime('%Y%m%dT%H%M%SZ'),'DURATION:PT15M','SUMMARY:'+esc(title),'DESCRIPTION:'+esc(desc),'END:VEVENT']
+            lines+=['BEGIN:VEVENT',f'UID:{symbol}-{day}@market-calendar','DTSTAMP:'+stamp,'DTSTART:'+close.strftime('%Y%m%dT%H%M%SZ'),'DURATION:PT24H','SUMMARY:'+esc(title),'DESCRIPTION:'+esc(desc),'END:VEVENT']
     lines+=['END:VCALENDAR']
     pathlib.Path('docs').mkdir(exist_ok=True)
     pathlib.Path('docs/market-indices.ics').write_bytes(('\r\n'.join(map(fold,lines))+'\r\n').encode())
