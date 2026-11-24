@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - market_calendar.py
+      - docs/market-indices.ics
       - .github/workflows/update-market-calendar.yml
   schedule:
     - cron: '35 7,21,22 * * 1-5'
@@ -26,6 +27,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: python market_calendar.py
+        continue-on-error: true
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
