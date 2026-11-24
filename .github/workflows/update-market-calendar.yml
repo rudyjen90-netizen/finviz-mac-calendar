@@ -6,7 +6,7 @@ on:
       - docs/market-indices.ics
       - .github/workflows/update-market-calendar.yml
   schedule:
-    - cron: '35 7,21,22 * * 1-5'
+    - cron: '35 1-8,13-22 * * 1-5'
   workflow_dispatch:
 permissions:
   contents: write
