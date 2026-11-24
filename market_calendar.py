@@ -5,7 +5,7 @@ import urllib.request
 import urllib.parse
 from zoneinfo import ZoneInfo
 
-INDICES = [('^IXIC','纳斯达克综合指数','America/New_York',16),('^NDX','纳斯达克100','America/New_York',16),('000510.SS','中证A500','Asia/Shanghai',15)]
+INDICES = [('^GSPC','标普500','America/New_York',16),('000510.SS','中证A500','Asia/Shanghai',15)]
 def esc(s):
     return s.replace('\\','\\\\').replace('\n','\\n').replace(';','\\;').replace(',','\\,')
 def fold(s):
