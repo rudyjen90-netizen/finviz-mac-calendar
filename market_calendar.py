@@ -15,7 +15,7 @@ def fold(s):
             out.append(part); part=' '
         part+=c
     return '\r\n'.join(out+[part])
-def intraday(symbol,name,tz,source,stamp,lines):
+def intraday(symbol,name,tz,source,stamp,lines,rows):
     url='https://query1.finance.yahoo.com/v8/finance/chart/'+urllib.parse.quote(symbol,safe='')+'?range=5d&interval=30m'
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
     with urllib.request.urlopen(req,timeout=30) as response:
@@ -26,9 +26,10 @@ def intraday(symbol,name,tz,source,stamp,lines):
         local=dt.datetime.fromtimestamp(t,tz)
         if o is not None and c is not None:
             groups.setdefault(local.date(),[]).append((local,o,c))
-    previous=data['meta'].get('chartPreviousClose')
+    prior_closes={day:price for day,price in rows}
     now=dt.datetime.now(dt.timezone.utc)
     for day,bars in sorted(groups.items()):
+        previous=next((prior_closes[d] for d in sorted(prior_closes,reverse=True) if d<day),None)
         if previous and bars:
             start=bars[0][0]
             for i,(when,o,c) in enumerate(bars):
@@ -36,11 +37,10 @@ def intraday(symbol,name,tz,source,stamp,lines):
                 price=o if i==0 else bars[i-1][2]
                 if when.astimezone(dt.timezone.utc)>now: continue
                 label='开盘' if i==0 else '盘中'
-                title=f'{name} {label} {price:,.2f} {(price/previous-1)*100:+.2f}%'
-                desc=f'行情时间：{when.isoformat()}\\n涨跌点数：{price-previous:+.2f}\\n数据：Yahoo Finance（可能延迟）'
+                title=f'{name}｜{label} {price:,.2f}｜昨收 {previous:,.2f}｜{(price/previous-1)*100:+.2f}%'
+                desc=f'昨收：{previous:,.2f}\n{label}点数：{price:,.2f}\n涨跌点数：{price-previous:+.2f}\n涨跌幅：{(price/previous-1)*100:+.2f}%\n行情时间：{when.isoformat()}\n数据：Yahoo Finance（可能延迟）'
                 utc=when.astimezone(dt.timezone.utc).strftime('%Y%m%dT%H%M%SZ')
                 lines+=['BEGIN:VEVENT',f'UID:{symbol}-{utc}-intraday@market-calendar','DTSTAMP:'+stamp,'DTSTART:'+utc,'DURATION:PT1H','SUMMARY:'+esc(title),'DESCRIPTION:'+esc(desc),'END:VEVENT']
-        previous=bars[-1][2]
 
 def main():
     lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Market Calendar//CN','CALSCALE:GREGORIAN','X-WR-CALNAME:中美股市每日观察']
@@ -66,11 +66,11 @@ def main():
             close=dt.datetime.combine(day,dt.time(hour),tzinfo=tz).astimezone(dt.timezone.utc)
             if close+dt.timedelta(minutes=20)>dt.datetime.now(dt.timezone.utc): continue
             pct=(price/prev-1)*100
-            title=f'{name} {price:,.2f} {pct:+.2f}%'
-            desc=f'交易日：{day}\n收盘：{price:,.2f}\n涨跌点数：{price-prev:+.2f}\n涨跌幅：{pct:+.2f}%\n数据：{source}（非官方，可能延迟）'
+            title=f'{name}｜收盘 {price:,.2f}｜昨收 {prev:,.2f}｜{pct:+.2f}%'
+            desc=f'交易日：{day}\n昨收：{prev:,.2f}\n收盘：{price:,.2f}\n涨跌点数：{price-prev:+.2f}\n涨跌幅：{pct:+.2f}%\n数据：{source}（非官方，可能延迟）'
             lines+=['BEGIN:VEVENT',f'UID:{symbol}-{day}@market-calendar','DTSTAMP:'+stamp,'DTSTART:'+close.strftime('%Y%m%dT%H%M%SZ'),'DURATION:PT24H','SUMMARY:'+esc(title),'DESCRIPTION:'+esc(desc),'END:VEVENT']
         try:
-            intraday(symbol,name,tz,source,stamp,lines)
+            intraday(symbol,name,tz,source,stamp,lines,rows)
         except Exception as exc:
             print(f'Intraday unavailable for {symbol}: {exc}')
             raise
