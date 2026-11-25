@@ -39,8 +39,9 @@ def main():
     for (start, phase), items in sorted(groups.items()):
         uids = [str(e["UID"]) for e in items]
         key = hashlib.sha256((start.isoformat()+phase).encode()).hexdigest()
-        old = next((e for e in existing if e.get("id")==key or
-                    any("UID:"+uid in e.get("description","") for uid in uids)), None)
+        matches = [e for e in existing if e.get("id")==key or
+                   any("UID:"+uid in e.get("description","").splitlines() for uid in uids)]
+        old = next((e for e in matches if e.get("id")==key), None) or next(iter(matches), None)
         titles, details = [], []
         for e in items:
             parts = str(e["SUMMARY"]).split("｜")
@@ -48,7 +49,7 @@ def main():
             titles.append(name+" "+parts[1].replace(phase+" ","")+" "+parts[-1])
             details.append(name+"\n"+str(e["DESCRIPTION"])+"\nUID:"+str(e["UID"]))
         recent = now-start <= dt.timedelta(minutes=90)
-        when = now+dt.timedelta(minutes=5) if recent else start
+        when = start
         body = dict(summary=("🟣 " if phase=="收盘" else "🔵 ")+phase+"｜"+" / ".join(titles),
                     description="原始行情时间："+start.isoformat()+"\n"+"\n\n".join(details),
                     start={"dateTime":when.isoformat(),"timeZone":"Europe/Vienna"},
@@ -57,8 +58,6 @@ def main():
                     reminders={"useDefault":False,"overrides":[{"method":"popup","minutes":0}] if recent else []},
                     extendedProperties={"private":{"marketSync":"v1","marketKey":key}})
         if old:
-            for field in ("start","end","reminders"):
-                body.pop(field, None)
             result = api.patch(calendarId="primary",eventId=old["id"],body=body,sendUpdates="none").execute(num_retries=3)
         else:
             body["id"]=key
@@ -67,11 +66,13 @@ def main():
             except HttpError as exc:
                 if exc.resp.status != 409: raise
                 body.pop("id")
-                for field in ("start","end","reminders"): body.pop(field,None)
                 result = api.patch(calendarId="primary",eventId=key,body=body,sendUpdates="none").execute(num_retries=3)
         confirmed=api.get(calendarId="primary",eventId=result["id"]).execute(num_retries=3)
-        if confirmed.get("summary") != body["summary"]:
+        if confirmed.get("summary") != body["summary"] or dt.datetime.fromisoformat(confirmed["start"]["dateTime"]) != start:
             raise RuntimeError("Calendar write verification failed")
+        for duplicate in matches:
+            if duplicate["id"] != result["id"]:
+                api.delete(calendarId="primary",eventId=duplicate["id"],sendUpdates="none").execute(num_retries=3)
     print(f"Verified {len(groups)} market time groups")
 
 if __name__ == "__main__":
