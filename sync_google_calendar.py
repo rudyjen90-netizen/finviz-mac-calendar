@@ -45,6 +45,7 @@ def main():
         token = page.get("nextPageToken")
         if not token:
             break
+    previous_samples = {}
     for (start, phase, market), items in sorted(groups.items()):
         if market == "US" and not all(any(str(e["UID"]).startswith(symbol+"-") for e in items) for symbol in ("^GSPC", "^IXIC")):
             print(f"Skipping incomplete US group: {start} {phase}")
@@ -66,12 +67,23 @@ def main():
             short = {"标普500":"标500", "纳斯达克综合指数":"纳", "上证指数":"沪", "中证A500":"A500"}[name]
             price = float(parts[1].replace(phase+" ","").replace(",",""))
             pct = float(parts[-1].strip().rstrip("%"))
-            titles.append(f"{short} {price:.0f} {pct:+.2f}%")
+            symbol = next(symbol for symbol in symbols if str(e["UID"]).startswith(symbol+"-"))
+            local_day = start.astimezone(ZoneInfo("America/New_York" if market == "US" else "Asia/Shanghai")).date()
+            sample_key = (symbol, local_day)
+            previous = previous_samples.get(sample_key)
+            if phase == "开盘" or previous is None:
+                arrow = ""
+            else:
+                change = round(pct - previous, 2)
+                arrow = "↑" if change > 0 else "↓" if change < 0 else "→"
+            previous_samples[sample_key] = pct
+            short = {"标500":"标", "纳":"纳", "沪":"沪", "A500":"A500"}[short]
+            titles.append(f"{short}{pct:+.2f}%{arrow}")
             details.append(name+"\n"+str(e["DESCRIPTION"])+"\nUID:"+str(e["UID"]))
         recent = now-start <= dt.timedelta(minutes=90)
         when = start
-        body = dict(summary=("🟣 " if phase=="收盘" else "🔵 ")+phase+"｜"+"｜".join(titles),
-                    description="原始行情时间："+start.isoformat()+"\n"+"\n\n".join(details),
+        body = dict(summary=("收 " if phase=="收盘" else "开 " if phase=="开盘" else "")+" ".join(titles),
+                    description="百分比：相对昨收；↑/↓/→：相对当天上一条完整行情回升/回落/持平。无前值不显示箭头。\n原始行情时间："+start.isoformat()+"\n"+"\n\n".join(details),
                     start={"dateTime":when.isoformat(),"timeZone":"Europe/Vienna"},
                     end={"dateTime":(when+dt.timedelta(minutes=15)).isoformat(),"timeZone":"Europe/Vienna"},
                     colorId="3" if phase=="收盘" else "9", transparency="transparent",
