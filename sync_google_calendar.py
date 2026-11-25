@@ -78,11 +78,15 @@ def main():
                 arrow = "↑" if change > 0 else "↓" if change < 0 else "→"
             previous_samples[sample_key] = pct
             short = {"标500":"标", "纳":"纳", "沪":"沪", "A500":"A500"}[short]
-            titles.append(f"{short}{pct:+.2f}%{arrow}")
+            if phase in ("开盘", "收盘"):
+                long_short = "标500" if short == "标" else short
+                titles.append(f"{long_short} {price:.0f} {pct:+.2f}%")
+            else:
+                titles.append(f"{short}{pct:+.2f}%{arrow}")
             details.append(name+"\n"+str(e["DESCRIPTION"])+"\nUID:"+str(e["UID"]))
         recent = now-start <= dt.timedelta(minutes=90)
         when = start
-        body = dict(summary=("收 " if phase=="收盘" else "开 " if phase=="开盘" else "")+" ".join(titles),
+        body = dict(summary=(("🟣 " if phase=="收盘" else "🔵 ")+phase+"｜"+"｜".join(titles) if phase in ("开盘", "收盘") else " ".join(titles)),
                     description="百分比：相对昨收；↑/↓/→：相对当天上一条完整行情回升/回落/持平。无前值不显示箭头。\n原始行情时间："+start.isoformat()+"\n"+"\n\n".join(details),
                     start={"dateTime":when.isoformat(),"timeZone":"Europe/Vienna"},
                     end={"dateTime":(when+dt.timedelta(minutes=15)).isoformat(),"timeZone":"Europe/Vienna"},
