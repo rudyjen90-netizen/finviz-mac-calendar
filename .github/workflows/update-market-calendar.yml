@@ -59,6 +59,8 @@ jobs:
           echo "::error::Calendar commit failed after three attempts"
           exit 1
       - name: Sync directly to Google Calendar
+        id: google_sync
+        continue-on-error: true
         env:
           GOOGLE_CALENDAR_OAUTH_JSON: ${{ secrets.GOOGLE_CALENDAR_OAUTH_JSON }}
         shell: bash
@@ -94,3 +96,9 @@ jobs:
         id: deployment
         with:
           artifact_name: github-pages
+
+      - name: Report Google sync failure after publishing
+        if: steps.google_sync.outcome == 'failure'
+        run: |
+          echo '::error::Google Calendar sync failed; subscription publishing was attempted independently.'
+          exit 1
