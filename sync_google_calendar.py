@@ -25,6 +25,8 @@ def main():
         phase = next((p for p in ("开盘", "盘中", "收盘") if p in summary), None)
         if phase:
             uid = str(e["UID"])
+            if not uid.startswith(("^GSPC-", "^IXIC-", "000001.SS-", "000905.SS-")):
+                continue
             market = "US" if uid.startswith(("^GSPC-", "^IXIC-")) else "CN"
             if market == "US" and phase in ("开盘", "盘中"):
                 local = start.astimezone(ZoneInfo("America/New_York"))
@@ -47,6 +49,11 @@ def main():
         if market == "US" and not all(any(str(e["UID"]).startswith(symbol+"-") for e in items) for symbol in ("^GSPC", "^IXIC")):
             print(f"Skipping incomplete US group: {start} {phase}")
             continue
+        symbols = ("^GSPC", "^IXIC") if market == "US" else ("000001.SS", "000905.SS")
+        if not all(any(str(e["UID"]).startswith(symbol+"-") for e in items) for symbol in symbols):
+            print(f"Skipping incomplete {market} group: {start} {phase}")
+            continue
+        items.sort(key=lambda e: next(i for i, symbol in enumerate(symbols) if str(e["UID"]).startswith(symbol+"-")))
         uids = [str(e["UID"]) for e in items]
         key = hashlib.sha256((start.isoformat()+phase).encode()).hexdigest()
         matches = [e for e in existing if e.get("id")==key or
@@ -55,12 +62,15 @@ def main():
         titles, details = [], []
         for e in items:
             parts = str(e["SUMMARY"]).split("｜")
-            name = parts[0].replace("🔵 ","").replace("🟣 ","").replace("纳斯达克综合指数","纳指").replace("中证A500","A500")
-            titles.append(name+" "+parts[1].replace(phase+" ","")+" "+parts[-1])
+            name = parts[0].replace("🔵 ","").replace("🟣 ","")
+            short = {"标普500":"标500", "纳斯达克综合指数":"纳", "上证指数":"沪", "中证500":"中500"}[name]
+            price = float(parts[1].replace(phase+" ","").replace(",",""))
+            pct = float(parts[-1].strip().rstrip("%"))
+            titles.append(f"{short} {price:.0f} {pct:+.2f}%")
             details.append(name+"\n"+str(e["DESCRIPTION"])+"\nUID:"+str(e["UID"]))
         recent = now-start <= dt.timedelta(minutes=90)
         when = start
-        body = dict(summary=("🟣 " if phase=="收盘" else "🔵 ")+phase+"｜"+" / ".join(titles),
+        body = dict(summary=("🟣 " if phase=="收盘" else "🔵 ")+phase+"｜"+"｜".join(titles),
                     description="原始行情时间："+start.isoformat()+"\n"+"\n\n".join(details),
                     start={"dateTime":when.isoformat(),"timeZone":"Europe/Vienna"},
                     end={"dateTime":(when+dt.timedelta(minutes=15)).isoformat(),"timeZone":"Europe/Vienna"},
