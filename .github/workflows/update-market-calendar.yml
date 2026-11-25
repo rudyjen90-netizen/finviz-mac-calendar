@@ -65,8 +65,8 @@ jobs:
         run: |
           set -euo pipefail
           if [[ -z "$GOOGLE_CALENDAR_OAUTH_JSON" ]]; then
-            echo "::warning::Google Calendar independent authorization not configured; sync skipped"
-            exit 0
+            echo "::error::Google Calendar authorization secret is missing"
+            exit 1
           fi
           python -m pip install 'icalendar>=6,<7' 'google-api-python-client>=2,<3' 'google-auth>=2,<3'
           python sync_google_calendar.py
