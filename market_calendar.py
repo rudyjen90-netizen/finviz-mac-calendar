@@ -8,7 +8,7 @@ import urllib.request
 import urllib.parse
 from zoneinfo import ZoneInfo
 
-INDICES = [('^GSPC','标普500','America/New_York',16),('^IXIC','纳斯达克综合指数','America/New_York',16),('000001.SS','上证指数','Asia/Shanghai',15),('000905.SS','中证500','Asia/Shanghai',15)]
+INDICES = [('^GSPC','标普500','America/New_York',16),('^IXIC','纳斯达克综合指数','America/New_York',16),('000001.SS','上证指数','Asia/Shanghai',15),('000510.SS','中证A500','Asia/Shanghai',15)]
 def open_with_retry(req, timeout=30):
     urls=[req.full_url]
     if 'query1.finance.yahoo.com' in req.full_url:
@@ -65,7 +65,7 @@ def main():
         fresh=[]
         try:
             tz=ZoneInfo(zone)
-            if symbol in ('000001.SS','000905.SS'):
+            if symbol in ('000001.SS','000510.SS'):
                 url='https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.'+symbol.split('.')[0]+'&klt=101&fqt=0&lmt=90&end=20500101&fields1=f1,f2,f3,f4,f5,f6&fields2=f51,f52,f53'
                 req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Referer':'https://quote.eastmoney.com/'})
                 with open_with_retry(req,timeout=30) as response:
