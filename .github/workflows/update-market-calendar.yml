@@ -5,6 +5,8 @@ on:
       - market_calendar.py
       - sync_google_calendar.py
       - docs/market-indices.ics
+      - docs/market-calendar.html
+      - docs/privacy.html
       - .github/workflows/update-market-calendar.yml
   schedule:
     - cron: '35 1-8,13-22 * * 1-5'
