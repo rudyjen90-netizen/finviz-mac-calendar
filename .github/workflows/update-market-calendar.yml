@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - market_calendar.py
+      - sync_google_calendar.py
       - docs/market-indices.ics
       - .github/workflows/update-market-calendar.yml
   schedule:
@@ -55,6 +56,18 @@ jobs:
           done
           echo "::error::Calendar commit failed after three attempts"
           exit 1
+      - name: Sync directly to Google Calendar
+        env:
+          GOOGLE_CALENDAR_OAUTH_JSON: ${{ secrets.GOOGLE_CALENDAR_OAUTH_JSON }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -z "$GOOGLE_CALENDAR_OAUTH_JSON" ]]; then
+            echo "::warning::Google Calendar independent authorization not configured; sync skipped"
+            exit 0
+          fi
+          python -m pip install 'icalendar>=6,<7' 'google-api-python-client>=2,<3' 'google-auth>=2,<3'
+          python sync_google_calendar.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
