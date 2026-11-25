@@ -1,11 +1,27 @@
 import datetime as dt
 import json
+import time
+import http.client
+import urllib.error
 import pathlib
 import urllib.request
 import urllib.parse
 from zoneinfo import ZoneInfo
 
 INDICES = [('^GSPC','标普500','America/New_York',16),('^IXIC','纳斯达克综合指数','America/New_York',16),('000510.SS','中证A500','Asia/Shanghai',15)]
+def open_with_retry(req, timeout=30):
+    urls=[req.full_url]
+    if 'query1.finance.yahoo.com' in req.full_url:
+        urls.append(req.full_url.replace('query1.finance.yahoo.com','query2.finance.yahoo.com'))
+    for attempt in range(6):
+        url=urls[attempt % len(urls)]
+        try:
+            return urllib.request.urlopen(urllib.request.Request(url,headers=dict(req.header_items())),timeout=timeout)
+        except (OSError, http.client.HTTPException, urllib.error.URLError) as exc:
+            print(f'行情请求失败 {attempt+1}/6: {urllib.parse.urlsplit(url).hostname}: {exc}',flush=True)
+            if attempt==5: raise
+            time.sleep(min(2**attempt,16))
+
 def esc(s):
     return s.replace('\\','\\\\').replace('\n','\\n').replace(';','\\;').replace(',','\\,')
 def fold(s):
@@ -18,7 +34,7 @@ def fold(s):
 def intraday(symbol,name,tz,source,stamp,lines,rows):
     url='https://query1.finance.yahoo.com/v8/finance/chart/'+urllib.parse.quote(symbol,safe='')+'?range=5d&interval=30m'
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
-    with urllib.request.urlopen(req,timeout=30) as response:
+    with open_with_retry(req,timeout=30) as response:
         data=json.load(response)['chart']['result'][0]
     q=data['indicators']['quote'][0]
     groups={}
@@ -50,14 +66,14 @@ def main():
         if symbol=='000510.SS':
             url='https://push2his.eastmoney.com/api/qt/stock/kline/get?secid=1.000510&klt=101&fqt=0&lmt=90&end=20500101&fields1=f1,f2,f3,f4,f5,f6&fields2=f51,f52,f53'
             req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Referer':'https://quote.eastmoney.com/'})
-            with urllib.request.urlopen(req,timeout=30) as response:
+            with open_with_retry(req,timeout=30) as response:
                 data=json.load(response)['data']
             rows=[(dt.date.fromisoformat(k.split(',')[0]),float(k.split(',')[2])) for k in data['klines']]
             source='东方财富'
         else:
             url='https://query1.finance.yahoo.com/v8/finance/chart/'+urllib.parse.quote(symbol,safe='')+'?range=3mo&interval=1d'
             req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0'})
-            with urllib.request.urlopen(req,timeout=30) as response:
+            with open_with_retry(req,timeout=30) as response:
                 data=json.load(response)['chart']['result'][0]
             rows=[(dt.datetime.fromtimestamp(t,tz).date(),p) for t,p in zip(data['timestamp'],data['indicators']['quote'][0]['close']) if p is not None]
             source='Yahoo Finance'
