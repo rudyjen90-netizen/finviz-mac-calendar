@@ -12,34 +12,70 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  actions: read
 concurrency:
   group: market-calendar
   cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python market_calendar.py
-        continue-on-error: true
-      - run: |
+      - name: Generate and commit calendar from latest main
+        shell: bash
+        run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/market-indices.ics
-          if ! git diff --cached --quiet; then
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python market_calendar.py
+            grep -q '^BEGIN:VCALENDAR' docs/market-indices.ics
+            grep -q '^END:VCALENDAR' docs/market-indices.ics
+            grep -q '^BEGIN:VEVENT' docs/market-indices.ics
+            git add docs/market-indices.ics
+            if git diff --cached --quiet; then
+              exit 0
+            fi
             git commit -m "Update market calendar"
-            git pull --rebase
-            git push
-          fi
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((attempt * 5))
+          done
+          echo "::error::Calendar commit failed after three attempts"
+          exit 1
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages
           path: docs
+      - name: Wait for deployment artifact to become visible
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in {1..18}; do
+            count=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts?name=github-pages" --jq '[.artifacts[] | select(.expired == false)] | length' || true)
+            if [[ "$count" == "1" ]]; then
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::Pages artifact is unavailable or ambiguous after 90 seconds"
+          exit 1
       - uses: actions/deploy-pages@v4
         id: deployment
+        with:
+          artifact_name: github-pages
