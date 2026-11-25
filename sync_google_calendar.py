@@ -2,6 +2,7 @@
 import os, json, hashlib, datetime as dt
 from pathlib import Path
 from collections import defaultdict
+from zoneinfo import ZoneInfo
 from icalendar import Calendar
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
@@ -23,7 +24,13 @@ def main():
         summary = str(e["SUMMARY"])
         phase = next((p for p in ("开盘", "盘中", "收盘") if p in summary), None)
         if phase:
-            groups[(start, phase)].append(e)
+            uid = str(e["UID"])
+            market = "US" if uid.startswith(("^GSPC-", "^IXIC-")) else "CN"
+            if market == "US" and phase in ("开盘", "盘中"):
+                local = start.astimezone(ZoneInfo("America/New_York"))
+                if local.minute != 30 or local.second != 0 or not 9 <= local.hour <= 15:
+                    continue
+            groups[(start, phase, market)].append(e)
     if not groups:
         raise RuntimeError("No recent market events")
     existing = []
@@ -36,7 +43,10 @@ def main():
         token = page.get("nextPageToken")
         if not token:
             break
-    for (start, phase), items in sorted(groups.items()):
+    for (start, phase, market), items in sorted(groups.items()):
+        if market == "US" and not all(any(str(e["UID"]).startswith(symbol+"-") for e in items) for symbol in ("^GSPC", "^IXIC")):
+            print(f"Skipping incomplete US group: {start} {phase}")
+            continue
         uids = [str(e["UID"]) for e in items]
         key = hashlib.sha256((start.isoformat()+phase).encode()).hexdigest()
         matches = [e for e in existing if e.get("id")==key or
