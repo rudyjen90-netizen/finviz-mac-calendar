@@ -10,6 +10,8 @@ on:
       - .github/workflows/update-market-calendar.yml
   schedule:
     - cron: '35 1-8,13-22 * * 1-5'
+    # Backup schedule: staggered off the primary trigger; same concurrency group.
+    - cron: '50 1-8,13-22 * * 1-5'
   workflow_dispatch:
 permissions:
   contents: write
